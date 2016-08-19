@@ -1,0 +1,418 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en-us" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en-us" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie10 lt-ie9" lang="en-us" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie10" lang="en-us" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en-us" xmlns:fb="http://ogp.me/ns/fb#"> <!--<![endif]-->
+<head>
+  <!--[if lt IE 9]>
+  <script src="//fox-sports.massrel.io/template-static-4ddad65eabf815efe8d6aba77e4644c7e6eb7b7b/js/html5-shiv.js"></script>
+  <script src="//fox-sports.massrel.io/template-static-4ddad65eabf815efe8d6aba77e4644c7e6eb7b7b/js/css3-mediaqueries.js"></script>
+  <![endif]-->
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>Multi-Stream</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta property="fb:app_id" content=""/>
+  <base target="_blank" />
+
+  <script src="../site_8/scripts/config.js"></script>
+  <script>
+    // ?id=illinois
+    var schoolSeoName = location.search.substring(4);
+    var school = SCHOOLS[schoolSeoName];
+  </script>
+  <script src="scripts/loader.js"></script>
+  <link id="compiled-template-less" href="styles/main.css" type="text/css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<div id="action-bar-top" class="headroom header--fixed">
+  <div class="head-contain">
+    <span id="header" style="display: none;"></span>
+    <script>document.write('<div style="color: ' + school.color + ';">TALK</div>');</script>
+    <div class="network-selector-wrapper">
+      <ul id="network-selector" class="mr-component mr-component-type-network-selector-bar-1 mr-component-instance-network-selector" data-mr-component-id="network-selector" data-mr-component-type="network-selector-bar-1"></ul>
+    </div>
+    <div id="stream-filter">
+      <div class="tabs">
+        <!--<script>document.write('<button type="button" data-value="BigTenNetwork/' + SCHOOLS[schoolSeoName].id + '-school" class="stream-tab active">School</button>');</script>-->
+        <!--<script>document.write('<button type="button" data-value="BigTenNetwork/' + SCHOOLS[schoolSeoName].id + '-media" class="stream-tab">Media</button>');</script>-->
+        <button type="button" class="stream-tab active">School</button>
+        <button type="button" class="stream-tab">Media</button>
+        <script>
+          $("#stream-filter .stream-tab:eq(0)").attr("data-value", "BigTenNetwork/" + SCHOOLS[schoolSeoName].id + "-school");
+          $("#stream-filter .stream-tab:eq(1)").attr("data-value", "BigTenNetwork/" + SCHOOLS[schoolSeoName].id + "-media");
+        </script>
+      </div>
+      <div class="carousel">
+        <!--<script>document.write('<li data-value="BigTenNetwork/' + SCHOOLS[schoolSeoName].id + '-school" class="selected">School</li>');</script>-->
+        <!--<script>document.write('<li data-value="BigTenNetwork/' + SCHOOLS[schoolSeoName].id + '-media" class="right">Media</li>');</script>-->
+        <li data-value="" class="carousel-item selected">School</li>
+        <li data-value="" class="carousel-item right">Media</li>
+        <script>
+          $("#stream-filter .carousel-item:eq(0)").attr("data-value", "BigTenNetwork/" + SCHOOLS[schoolSeoName].id + "-school");
+          $("#stream-filter .carousel-item:eq(1)").attr("data-value", "BigTenNetwork/" + SCHOOLS[schoolSeoName].id + "-media");
+        </script>
+        <span class="icon-angle-right"></span>
+        <span class="icon-angle-left"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-container has-header header-bar-visible">
+  <div id="stream" class="mr-component mr-component-type-stream-1 mr-component-instance-stream" data-mr-component-id="stream" data-mr-component-type="stream-1"></div>
+  <div id="loading-indicator"></div>
+  <div id="load-more" class="mr-component mr-component-type-load-more-1 mr-component-instance-load-more" data-mr-component-id="load-more" data-mr-component-type="load-more-1"></div>
+</div>
+
+<div id="current-search">
+  <div id="search-term-holder">showing results for &quot;<span class="term"></span>&quot; </div>
+  <div class="close-button">&times;</div>
+</div>
+<div id="action-bar">
+  <div id="search-box-placeholder">
+    <i class="icon icon-search"></i>
+  </div>
+  <div id="search-box" class="mr-component mr-component-type-search-box-1 mr-component-instance-search-box" data-mr-component-id="search-box" data-mr-component-type="search-box-1"></div>
+  <div class="network-content active" data-network="twitter">
+    <div id="tweet-button" class="mr-component mr-component-type-tweet-button-1 mr-component-instance-tweet-button" data-mr-component-id="tweet-button" data-mr-component-type="tweet-button-1"></div>
+    <div id="follow-button" class="mr-component mr-component-type-follow-button-1 mr-component-instance-follow-button" data-mr-component-id="follow-button" data-mr-component-type="follow-button-1"></div>
+  </div>
+  <div class="network-content active" data-network="facebook">
+    <div id="fb-post-button" class="mr-component mr-component-type-fb-post-button-1 mr-component-instance-fb-post-button" data-mr-component-id="fb-post-button" data-mr-component-type="fb-post-button-1"></div>
+    <div id="fb-like-button" class="mr-component mr-component-type-fb-like-button-1 mr-component-instance-fb-like-button" data-mr-component-id="fb-like-button" data-mr-component-type="fb-like-button-1"></div>
+  </div>
+</div>
+
+
+<script>//! moment.js
+//! version : 2.8.4
+//! authors : Tim Wood, Iskren Chernev, Moment.js contributors
+//! license : MIT
+//! momentjs.com
+</script>
+<script src="scripts/mrlib.js"></script>
+<script>MR.require(["loader", "lib/analytics/main", "staticPath"], function (o, e)
+{
+  MR.templateConfig = {
+    data: {},
+    settings: {
+      "@loadMoreButtonBackgroundColor": "#FFF",
+      "@loadMoreButtonTextColor": "#666",
+      "@loadMoreButtonFont": "'Open Sans', Helvetica, Arial, sans-serif",
+      "@loadMoreButtonFontSize": 13,
+      topActionBar: {
+        "@streamSelectorFontSize": 16,
+        "@streamSelectorFont": "inherit",
+        "@streamSelectorTextColor": "#333",
+        "@streamSelectorHoverTextColor": "#333",
+        "@streamSelectorBackgroundColor": "#ddd",
+        "@streamSelectorHoverBackgroundColor": "#ddd",
+        "@streamSelectorActiveColor": "#fff",
+        "@streamSelectorActiveBackgroundColor": "#070707",
+        "@networkSelectorBorderColor": "#999",
+        "@networkSelectorActiveBorderColor": "#999",
+        "@networkSelectorHoverBorderColor": "#999",
+        "@actionBarTopBackgroundColor": "#f7f7f7",
+        "@actionBarTopTextColor": "#333"
+      },
+      header: {
+        headerText: "Michigan",
+        showHeader: !0,
+        "@headerFontSize": 28,
+        "@headerFont": "'Helvetica Neue', helvetica, arial, sans-serif",
+        "@headerColor": "#333",
+        "@headerBackgroundColor": "#FFF",
+        "@headerBackgroundImage": "",
+        "@headerBackgroundPosition": ""
+      },
+      body: {
+        network: "twitter",
+        no_content_text: "No new content.",
+        embed_media: !0,
+        "@bodyBackgroundColor": "#EEE",
+        "@bodyBackgroundImage": "",
+        "@bodyBackgroundPosition": "",
+        "@newContentButtonFont": "inherit",
+        "@newContentButtonTextColor": "#555",
+        "@newContentButtonHoverTextColor": "#fff",
+        "@newContentButtonFontSize": 12,
+        "@newContentButtonBackground": "#999",
+        "@newContentButtonHoverBackground": "#999",
+        "@textColor": "#333",
+        "@backgroundColor": "#FFF",
+        "@bodyFont": "Helvetica, Arial, sans-serif",
+        "@streamFontSize": 14
+      },
+      actionBar: {
+        showTweetButton: !0,
+        showFollowButton: !0,
+        showFbPost: !0,
+        showFbLike: !0,
+        buttonStyle: "color",
+        "@actionBarTextColor": "#333",
+        "@buttonRadius": 3,
+        "@actionBarBackgroundColor": "#f6f6f6"
+      },
+      sponsorBar: {showSponsorBar: !1}
+    },
+    styles: {
+      loadMoreButtonBackgroundColor: "#FFF",
+      loadMoreButtonTextColor: "#666",
+      loadMoreButtonFont: "'Open Sans', Helvetica, Arial, sans-serif",
+      loadMoreButtonFontSize: 13,
+      streamSelectorFontSize: 16,
+      topActionBar_streamSelectorFontSize: 16,
+      streamSelectorFont: "inherit",
+      topActionBar_streamSelectorFont: "inherit",
+      streamSelectorTextColor: "#333",
+      topActionBar_streamSelectorTextColor: "#333",
+      streamSelectorHoverTextColor: "#333",
+      topActionBar_streamSelectorHoverTextColor: "#333",
+      streamSelectorBackgroundColor: "#ddd",
+      topActionBar_streamSelectorBackgroundColor: "#ddd",
+      streamSelectorHoverBackgroundColor: "#ddd",
+      topActionBar_streamSelectorHoverBackgroundColor: "#ddd",
+      streamSelectorActiveColor: "#fff",
+      topActionBar_streamSelectorActiveColor: "#fff",
+      streamSelectorActiveBackgroundColor: "#070707",
+      topActionBar_streamSelectorActiveBackgroundColor: "#070707",
+      networkSelectorBorderColor: "#999",
+      topActionBar_networkSelectorBorderColor: "#999",
+      networkSelectorActiveBorderColor: "#999",
+      topActionBar_networkSelectorActiveBorderColor: "#999",
+      networkSelectorHoverBorderColor: "#999",
+      topActionBar_networkSelectorHoverBorderColor: "#999",
+      actionBarTopBackgroundColor: "#f7f7f7",
+      topActionBar_actionBarTopBackgroundColor: "#f7f7f7",
+      actionBarTopTextColor: "#333",
+      topActionBar_actionBarTopTextColor: "#333",
+      headerFontSize: 28,
+      header_headerFontSize: 28,
+      headerFont: "'Helvetica Neue', helvetica, arial, sans-serif",
+      header_headerFont: "'Helvetica Neue', helvetica, arial, sans-serif",
+      headerColor: "#333",
+      header_headerColor: "#333",
+      headerBackgroundColor: "#FFF",
+      header_headerBackgroundColor: "#FFF",
+      headerBackgroundImage: "",
+      header_headerBackgroundImage: "",
+      headerBackgroundPosition: "",
+      header_headerBackgroundPosition: "",
+      bodyBackgroundColor: "#EEE",
+      body_bodyBackgroundColor: "#EEE",
+      bodyBackgroundImage: "",
+      body_bodyBackgroundImage: "",
+      bodyBackgroundPosition: "",
+      body_bodyBackgroundPosition: "",
+      newContentButtonFont: "inherit",
+      body_newContentButtonFont: "inherit",
+      newContentButtonTextColor: "#555",
+      body_newContentButtonTextColor: "#555",
+      newContentButtonHoverTextColor: "#fff",
+      body_newContentButtonHoverTextColor: "#fff",
+      newContentButtonFontSize: 12,
+      body_newContentButtonFontSize: 12,
+      newContentButtonBackground: "#999",
+      body_newContentButtonBackground: "#999",
+      newContentButtonHoverBackground: "#999",
+      body_newContentButtonHoverBackground: "#999",
+      textColor: "#333",
+      body_textColor: "#333",
+      backgroundColor: "#FFF",
+      body_backgroundColor: "#FFF",
+      bodyFont: "Helvetica, Arial, sans-serif",
+      body_bodyFont: "Helvetica, Arial, sans-serif",
+      streamFontSize: 14,
+      body_streamFontSize: 14,
+      actionBarTextColor: "#333",
+      actionBar_actionBarTextColor: "#333",
+      buttonRadius: 3,
+      actionBar_buttonRadius: 3,
+      actionBarBackgroundColor: "#f6f6f6",
+      actionBar_actionBarBackgroundColor: "#f6f6f6"
+    },
+    components: {
+      "sponsor-bar": {
+        settings: {
+          "@visible": !0,
+          url: "http://www.spredfast.com",
+          image_url: "",
+          "@backgroundColor": "#efefef",
+          "@position": "center",
+          width: "auto",
+          ada_text: ""
+        }, styles: {visible: !0, backgroundColor: "#efefef", position: "center"}, type: "sponsor-bar-1"
+      },
+      "load-more": {
+        settings: {
+          buttonText: "Load More",
+          type: "scroll",
+          eventThrottle: 500,
+          scrollElement: ".main-container"
+        }, styles: {}, type: "load-more-1"
+      },
+      stream: {
+        settings: {
+          network: "twitter",
+          keywords: "",
+          stream_name: "",
+          replies: !1,
+          replies_only: !1,
+          media_only: !1,
+          klout: !1,
+          frequency: 30,
+          interval: 1500,
+          start_immediately: !0,
+          auto_step: !1,
+          content_limit: 0,
+          limit: 10,
+          pause_threshold: 50,
+          resume_threshold: 10,
+          infinite_scroll: !1,
+          embed_media: !0,
+          strip_links: !1,
+          no_content_text: "No new content.",
+          new_content_text_prefix: "show",
+          new_content_text_suffix: "new items",
+          show_new_content_button: !0,
+          scrolling_interval: 1500,
+          avatar_resolution: "small",
+          "@linkColor": "#55acee",
+          "@linkVisitedColor": "#55acee",
+          "@linkHoverColor": "#55acee",
+          "@linkUnderline": "none",
+          "@linkHoverUnderline": "none",
+          "@secondaryLinkColor": "#666",
+          "@secondaryLinkVisitedColor": "#666",
+          "@secondaryLinkHoverColor": "#666",
+          "@secondaryLinkUnderline": "none",
+          "@secondaryLinkHoverUnderline": "none",
+          "@textColor": "#333",
+          "@backgroundColor": "#FFF",
+          "@secondaryColor": "#666",
+          "@newTweetsButtonBackgroundColor": "#000",
+          "@newTweetsButtonColor": "#FFF"
+        },
+        styles: {
+          linkColor: "#55acee",
+          linkVisitedColor: "#55acee",
+          linkHoverColor: "#55acee",
+          linkUnderline: "none",
+          linkHoverUnderline: "none",
+          secondaryLinkColor: "#666",
+          secondaryLinkVisitedColor: "#666",
+          secondaryLinkHoverColor: "#666",
+          secondaryLinkUnderline: "none",
+          secondaryLinkHoverUnderline: "none",
+          textColor: "#333",
+          backgroundColor: "#FFF",
+          secondaryColor: "#666",
+          newTweetsButtonBackgroundColor: "#000",
+          newTweetsButtonColor: "#FFF"
+        },
+        type: "stream-1"
+      },
+      "network-selector": {
+        settings: {
+          network: "twitter",
+          "@backgroundColor": "#FFF",
+          "@textColor": "#333",
+          "@iconStyle": "black",
+          networks: {twitter: !0, facebook: !0, instagram: !0, google_plus: !1, getglue: !1, youtube: !1}
+        }, styles: {backgroundColor: "#FFF", textColor: "#333", iconStyle: "black"}, type: "network-selector-bar-1"
+      },
+      "tweet-button": {
+        settings: {
+          buttonStyle: "color",
+          buttonBorderRadius: 3,
+          buttonText: "Tweet",
+          hashtags: "",
+          related: "",
+          original_referer: "",
+          text: "",
+          url: ""
+        }, styles: {}, type: "tweet-button-1"
+      },
+      "follow-button": {
+        settings: {
+          buttonStyle: "silver",
+          buttonBorderRadius: 3,
+          buttonText: "+",
+          original_referer: "",
+          screen_name: "spredfast"
+        }, styles: {}, type: "follow-button-1"
+      },
+      "fb-post-button": {
+        settings: {
+          buttonStyle: "color",
+          buttonBorderRadius: 3,
+          buttonText: "Post",
+          link: "",
+          feed: "",
+          name: "",
+          picture: "",
+          caption: "",
+          description: ""
+        }, styles: {}, type: "fb-post-button-1"
+      },
+      "fb-like-button": {
+        settings: {
+          href: "https://facebook.com/Spredfast",
+          send: !1,
+          layout: "button",
+          width: 50,
+          height: 20,
+          share: !1,
+          show_faces: !1,
+          font: "",
+          colorscheme: "light",
+          action: "like",
+          ref: "spredfast"
+        }, styles: {}, type: "fb-like-button-1"
+      },
+      "search-box": {settings: {placeholder_text: "Search"}, styles: {}, type: "search-box-1"},
+      "stream-selector": {
+        settings: {
+          streams: [{
+            stream: "BigTenNetwork/" + SCHOOLS[schoolSeoName].id + "-school",
+            label: "School"
+          }, {stream: "BigTenNetwork/" + SCHOOLS[schoolSeoName].id + "-media", label: "Media"}], "@textColor": "#333", "@backgroundColor": "#FFF"
+        }, styles: {textColor: "#333", backgroundColor: "#FFF"}, type: "stream-selector-1"
+      }
+    }
+  }, MR.spaceConfig = {
+    template: {
+      id: 1978,
+      root_id: 1978,
+      component_ids: [91, 92, 93, 98, 100, 104, 105, 107, 160, 213]
+    },
+    visualization: 71068,
+    page: null,
+    search_api_access_token: "21d63acd388bdc5b2328c794c06153847b642d3729ef1d99816ee053933a7fd8d5c9ecdf1d84f98f94ee583da9c85d42f6908398265fe11bc17269a576c8e5bc",
+    name: schoolSeoName,
+    client: "fox-sports",
+    account_id: "MR000098-0013000000wKbFM",
+    id: 28485,
+    auto_size: !1,
+    smart_size: !0,
+    height: 400,
+    width: 600,
+    analytics_ga_id: "",
+    facebook_custom_audience_id: "",
+    short_url: "http://mssv.ly/1NJx1Na",
+    cnames: [],
+    host: null,
+    auto_refresh: !1
+  }, MR.analytics = new e([MR.spaceConfig, {scope: "template"}]), o.init(), MR.templateConfig.components && o.render(MR.templateConfig.components)
+});
+</script>
+<script src="scripts/index.js"></script>
+<script>!function(o){window.MR_ready=function(e){var t=this.async();o.require(["js/index"],function(o){o.ready(e),t()})},window.MR_render=function(e){o.require(["js/index"],function(o){o.render(e)})}}(window.MRT||window);</script>
+</body>
+</html>
