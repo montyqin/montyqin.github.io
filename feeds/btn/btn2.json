@@ -70,7 +70,7 @@
 				"name": "B1G Football Media Day 2",
 				"description": "B1G Football Media Day press conferences with head coaches Lovie Smith (Illinois), Kevin Wilson (Indiana), Mark Dantonio (MSU), Paul Chryst (Wisconsin), DJ Durkin (Maryland), Kirk Ferentz (Iowa) and Urban Meyer (OSU).  Plus, Commissioner Jim Delany speaks.",
 				"runtime": "159",
-				"id": "9804",
+				"id": 9804,
 				"runtimeHours": "2:38:52",
 				"purchaseTypeId": "1",
 				"seoName": "B1G-Football-Media-Day-2"
@@ -111,7 +111,7 @@
 				"name": "BTN Live: Football Media Day 1 Wrap",
 				"description": "BTN Live recaps B1G Football Media Day 1 as coaches and players join Dave Revsine, Gerry DiNardo and Howard Griffith on the BTN set live from Chicago.",
 				"runtime": "201",
-				"id": "14473",
+				"id": 14473,
 				"runtimeHours": "3:20:49",
 				"seoName": "btn-live-football-media-day-1-wrap"
 			},
@@ -155,7 +155,7 @@
 				"name": "BTN Live: Football Media Day 2 Wrap",
 				"description": "BTN Live recaps B1G Football Media Day 2 as coaches and players join Dave Revsine, Gerry DiNardo and Howard Griffith on the BTN set live from Chicago.",
 				"runtime": "199",
-				"id": "14484",
+				"id": 14484,
 				"runtimeHours": "3:18:49",
 				"purchaseTypeId": "2",
 				"seoName": "btn-live-football-media-day-2-wrap"
