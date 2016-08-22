@@ -72,7 +72,7 @@
 				"runtime": "159",
 				"id": 9804,
 				"runtimeHours": "2:38:52",
-				"purchaseTypeId": "1",
+				"purchaseTypeId": 1,
 				"seoName": "B1G-Football-Media-Day-2"
 			},
 			"source": "BTN Home Page",
@@ -92,7 +92,7 @@
 				"runtime": "159",
 				"id": 9804,
 				"runtimeHours": "2:38:52",
-				"purchaseTypeId": "2",
+				"purchaseTypeId": 2,
 				"seoName": "B1G-Football-Media-Day-2"
 			},
 			"source": "BTN Home Page",
@@ -134,7 +134,7 @@
 				"runtime": "199",
 				"id": 14484,
 				"runtimeHours": "3:18:49",
-				"purchaseTypeId": "1",
+				"purchaseTypeId": 1,
 				"seoName": "btn-live-football-media-day-2-wrap"
 			},
 			"source": "BTN Home Page",
@@ -157,7 +157,7 @@
 				"runtime": "199",
 				"id": 14484,
 				"runtimeHours": "3:18:49",
-				"purchaseTypeId": "2",
+				"purchaseTypeId": 2,
 				"seoName": "btn-live-football-media-day-2-wrap"
 			},
 			"source": "BTN Home Page",
@@ -574,7 +574,7 @@
 		"data": {
 			"progType": "1",
 			"runtime": "209",
-			"purchaseTypeId": "1",
+			"purchaseTypeId": 1,
 			"source": "BTN Latest Videos",
 			"seoName": "riley-bullough-and-demetrious-cox-talk-msu-defense"
 		},
@@ -589,8 +589,8 @@
 		"thumbnail": "9804_es.jpg",
 		"data": {
 			"progType": "1",
-			"runtime": "75",
-			"purchaseTypeId": "2",
+			"runtime": 75,
+			"purchaseTypeId": 2,
 			"source": "BTN Latest Videos",
 			"seoName": "jake-butt-amara-darboh-on-coach-harbaugh-in-year-2"
 		},
@@ -737,7 +737,7 @@
 		"thumbnail": "9804_es.jpg",
 		"data": {
 			"progType": "1",
-			"runtime": "155",
+			"runtime": 155,
 			"source": "BTN Latest Videos",
 			"seoName": "best-things-from-michigan-state-fall-practice"
 		},
@@ -751,7 +751,7 @@
 		"thumbnail": "9804_es.jpg",
 		"data": {
 			"progType": "1",
-			"runtime": "86",
+			"runtime": 86,
 			"source": "BTN Latest Videos",
 			"seoName": "michigan-football-harbaugh-talks-about-the-quarterbacks"
 		},
@@ -765,7 +765,7 @@
 		"thumbnail": "9804_es.jpg",
 		"data": {
 			"progType": "1",
-			"runtime": "61",
+			"runtime": 61,
 			"source": "BTN Latest Videos",
 			"seoName": "wisconsin-football-scrimmage-starts-off-big-week-for-badgers"
 		},
@@ -779,7 +779,7 @@
 		"thumbnail": "9804_es.jpg",
 		"data": {
 			"progType": "1",
-			"runtime": "67",
+			"runtime": 67,
 			"source": "BTN Latest Videos",
 			"seoName": "illinois-football-illini-oc-garrick-mcgee-post-practice"
 		},
@@ -793,7 +793,7 @@
 		"thumbnail": "9804_es.jpg",
 		"data": {
 			"progType": "1",
-			"runtime": "45",
+			"runtime": 45,
 			"source": "BTN Latest Videos",
 			"seoName": "northwestern-mens-soccer-drew-rosenberg-preseason-interview"
 		},
@@ -821,7 +821,7 @@
 		"thumbnail": "9804_es.jpg",
 		"data": {
 			"progType": "1",
-			"runtime": "143",
+			"runtime": 143,
 			"source": "BTN Latest Videos",
 			"seoName": "northwestern-mens-soccer-tim-lenahan-preseason-trip-interview"
 		},
