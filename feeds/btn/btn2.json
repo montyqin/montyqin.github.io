@@ -1,4 +1,3 @@
-
 [
 	{
 		"comment": "DL:Link:Default",
@@ -172,7 +171,7 @@
 	},
 	{
 		"comment": "DL:Game:default Free",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"game": {
 				"week": "1",
@@ -198,7 +197,7 @@
 	},
 	{
 		"comment": "DL:Game:default BTN TV",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"game": {
 				"week": "1",
@@ -224,7 +223,7 @@
 	},
 	{
 		"comment": "DL:Game:default BTN Plus",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"game": {
 				"week": "1",
@@ -249,7 +248,7 @@
 	},
 	{
 		"comment": "DL:Game:featured Free",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"style": "featured",
 			"game": {
@@ -277,7 +276,7 @@
 	},
 	{
 		"comment": "DL:Game:headline BTN TV",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"style": "headline",
 			"game": {
@@ -305,7 +304,7 @@
 	},
 	{
 		"comment": "DL:Game:headline BTN Plus",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"style": "headline",
 			"game": {
@@ -332,7 +331,7 @@
 	},
 	{
 		"comment": "DL:Game:default BTN Plus Upcoming",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"game": {
 				"week": "1",
@@ -369,7 +368,7 @@
 	},
 	{
 		"comment": "DL:Game:headline BTN Plus Upcoming",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"style": "headline",
 			"game": {
@@ -408,7 +407,7 @@
 	},
 	{
 		"comment": "DL:Game:headline BTN Plus Live",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"style": "headline",
 			"game": {
@@ -447,7 +446,7 @@
 	},
 	{
 		"comment": "DL:Game:headline BTN Plus Final",
-		"date": "2016-05-15T16:30:10.000Z",
+		"date": "2016-05-15T12:30:10.000Z",
 		"data": {
 			"style": "headline",
 			"game": {
