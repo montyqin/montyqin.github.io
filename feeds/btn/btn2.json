@@ -1,0 +1,834 @@
+
+[
+	{
+		"comment": "DL:Link:Default",
+		"data": {
+			"source": "BTN Home Page",
+			"type": "2",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon Default",
+		"type": "dl",
+		"subTitle": "Button Text",
+		"description": "DL Description Content, maybe very long. DL Description Content, maybe very long. ",
+		"url": "http://www.btn2go.com/faq"
+	},
+	{
+		"comment": "DL:Link:headline",
+		"data": {
+			"style": "headline",
+			"source": "BTN Home Page",
+			"type": "2",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl",
+		"subTitle": "JUN 08, 2016",
+		"description": "By Wayne Mao",
+		"url": "http://www.btn2go.com/faq"
+	},
+	{
+		"comment": "DL:Link:featured",
+		"data": {
+			"style": "featured",
+			"source": "BTN Home Page",
+			"type": "2",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl",
+		"subTitle": "JUN 08, 2016",
+		"description": "By Wayne Mao",
+		"url": "http://www.btn2go.com/faq"
+	},
+	{
+		"comment": "DL:Program:default Free",
+		"date": "2016-07-26T20:27:00.000Z",
+		"data": {
+			"program": {
+				"name": "B1G Football Media Day 2",
+				"description": "B1G Football Media Day press conferences with head coaches Lovie Smith (Illinois), Kevin Wilson (Indiana), Mark Dantonio (MSU), Paul Chryst (Wisconsin), DJ Durkin (Maryland), Kirk Ferentz (Iowa) and Urban Meyer (OSU).  Plus, Commissioner Jim Delany speaks.",
+				"runtime": "159",
+				"id": "9804",
+				"runtimeHours": "2:38:52",
+				"seoName": "B1G-Football-Media-Day-2"
+			},
+			"source": "BTN Home Page",
+			"type": "1",
+			"platform": "15"
+		},
+		"id": "3178",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Program:default BTN TV",
+		"date": "2016-07-26T20:27:00.000Z",
+		"data": {
+			"program": {
+				"name": "B1G Football Media Day 2",
+				"description": "B1G Football Media Day press conferences with head coaches Lovie Smith (Illinois), Kevin Wilson (Indiana), Mark Dantonio (MSU), Paul Chryst (Wisconsin), DJ Durkin (Maryland), Kirk Ferentz (Iowa) and Urban Meyer (OSU).  Plus, Commissioner Jim Delany speaks.",
+				"runtime": "159",
+				"id": "9804",
+				"runtimeHours": "2:38:52",
+				"purchaseTypeId": "1",
+				"seoName": "B1G-Football-Media-Day-2"
+			},
+			"source": "BTN Home Page",
+			"type": "1",
+			"platform": "15"
+		},
+		"id": "3178",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Program:default BTN Plus",
+		"date": "2016-07-26T20:27:00.000Z",
+		"data": {
+			"program": {
+				"name": "B1G Football Media Day 2",
+				"description": "B1G Football Media Day press conferences with head coaches Lovie Smith (Illinois), Kevin Wilson (Indiana), Mark Dantonio (MSU), Paul Chryst (Wisconsin), DJ Durkin (Maryland), Kirk Ferentz (Iowa) and Urban Meyer (OSU).  Plus, Commissioner Jim Delany speaks.",
+				"runtime": "159",
+				"id": "9804",
+				"runtimeHours": "2:38:52",
+				"purchaseTypeId": "2",
+				"seoName": "B1G-Football-Media-Day-2"
+			},
+			"source": "BTN Home Page",
+			"type": "1",
+			"platform": "15"
+		},
+		"id": "3178",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Program:featured Free",
+		"date": "2016-07-26T05:09:00.000Z",
+		"data": {
+			"style": "featured",
+			"program": {
+				"name": "BTN Live: Football Media Day 1 Wrap",
+				"description": "BTN Live recaps B1G Football Media Day 1 as coaches and players join Dave Revsine, Gerry DiNardo and Howard Griffith on the BTN set live from Chicago.",
+				"runtime": "201",
+				"id": "14473",
+				"runtimeHours": "3:20:49",
+				"seoName": "btn-live-football-media-day-1-wrap"
+			},
+			"source": "BTN Home Page",
+			"type": "1",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Program:headline BTV TV",
+		"date": "2016-07-27T06:24:00.000Z",
+		"data": {
+			"style": "headline",
+			"program": {
+				"name": "BTN Live: Football Media Day 2 Wrap",
+				"description": "BTN Live recaps B1G Football Media Day 2 as coaches and players join Dave Revsine, Gerry DiNardo and Howard Griffith on the BTN set live from Chicago.",
+				"runtime": "199",
+				"id": "14484",
+				"runtimeHours": "3:18:49",
+				"purchaseTypeId": "1",
+				"seoName": "btn-live-football-media-day-2-wrap"
+			},
+			"source": "BTN Home Page",
+			"type": "1",
+			"platform": "15"
+		},
+		"id": "2561",
+		"type": "dl",
+		"title": "Football Luncheon",
+		"url": "http://btn.com/sports/football/"
+	},
+	{
+		"comment": "DL:Program:headline BTV Plus",
+		"date": "2016-07-27T06:24:00.000Z",
+		"data": {
+			"style": "headline",
+			"program": {
+				"name": "BTN Live: Football Media Day 2 Wrap",
+				"description": "BTN Live recaps B1G Football Media Day 2 as coaches and players join Dave Revsine, Gerry DiNardo and Howard Griffith on the BTN set live from Chicago.",
+				"runtime": "199",
+				"id": "14484",
+				"runtimeHours": "3:18:49",
+				"purchaseTypeId": "2",
+				"seoName": "btn-live-football-media-day-2-wrap"
+			},
+			"source": "BTN Home Page",
+			"type": "1",
+			"platform": "15"
+		},
+		"id": "2561",
+		"type": "dl",
+		"title": "Football Luncheon",
+		"url": "http://btn.com/sports/football/"
+	},
+	{
+		"comment": "DL:Game:default Free",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"free": "1",
+				"gameState": "3",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"isGame": "false"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:default BTN TV",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"free": "0",
+				"gameState": "3",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"isGame": "false"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:default BTN Plus",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"gameState": "3",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"isGame": "false"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:featured Free",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"style": "featured",
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"free": "1",
+				"gameState": "3",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"isGame": "false"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:headline BTN TV",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"style": "headline",
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"free": "0",
+				"gameState": "3",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"isGame": "false"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:headline BTN Plus",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"style": "headline",
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"gameState": "3",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"isGame": "false"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:default BTN Plus Upcoming",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"gameState": "0",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"awayTeam": {
+					"id": "379",
+					"name": "Bowling Green",
+					"score": "",
+					"code": "379"
+				},
+				"homeTeam": {
+					"id": "289",
+					"name": "Colgate",
+					"score": "",
+					"code": "289"
+				},
+				"isGame": "true"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:headline BTN Plus Upcoming",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"style": "headline",
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"gameState": "0",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"awayTeam": {
+					"id": "379",
+					"name": "Bowling Green",
+					"score": "",
+					"code": "379"
+				},
+				"homeTeam": {
+					"id": "289",
+					"name": "Colgate",
+					"score": "",
+					"code": "289"
+				},
+				"isGame": "true"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:headline BTN Plus Live",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"style": "headline",
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "OTH",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"gameState": "1",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"awayTeam": {
+					"id": "379",
+					"name": "Bowling Green",
+					"score": "",
+					"code": "379"
+				},
+				"homeTeam": {
+					"id": "289",
+					"name": "Colgate",
+					"score": "",
+					"code": "289"
+				},
+				"isGame": "true"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Game:headline BTN Plus Final",
+		"date": "2016-05-15T16:30:10.000Z",
+		"data": {
+			"style": "headline",
+			"game": {
+				"week": "1",
+				"type": "2",
+				"seoName": "rutgers-commencement-with-president-obama",
+				"sportId": "BK",
+				"sportGender": "M",
+				"name": "Rutgers Commencement with President Obama",
+				"logo": "NCAAOTH.png",
+				"dateTimeGMT": "2016-05-15T16:30:10.000",
+				"sportName": "Other",
+				"extId": "201605158",
+				"gameState": "3",
+				"endDateTimeGMT": "2016-05-15T18:01:24.000",
+				"result": "F",
+				"awayTeam": {
+					"id": "379",
+					"name": "Bowling Green",
+					"score": "11",
+					"code": "379"
+				},
+				"homeTeam": {
+					"id": "289",
+					"name": "Colgate",
+					"score": "22",
+					"code": "289"
+				},
+				"isGame": "true"
+			},
+			"source": "BTN Home Page",
+			"type": "0",
+			"platform": "15"
+		},
+		"id": "2561",
+		"title": "Football Luncheon",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Channel:default",
+		"id": "2622",
+		"data": {
+			"type": "4",
+			"platform": "15",
+			"channel": {
+				"id": "2",
+				"seoName": "CHANNEL-2",
+				"name": "Channel 2"
+			}
+		},
+		"title": "CCTV 5",
+		"description": "This is a very long desc. This is a very long desc. This is a very long desc. This is a very long desc.",
+		"subTitle": "Sub Title Again",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Channel:headline",
+		"id": "2236",
+		"data": {
+			"type": "4",
+			"platform": "15",
+			"style": "headline",
+			"channel": {
+				"id": 1,
+				"seoName": "BTNLIVE",
+				"name": "Watch BTN 24x7 Channel",
+				"description": "Watch BTN anytime and anywhere with the 24/7 BTN Channel on BTN2Go"
+			}
+		},
+		"title": "Michigan Press Conference",
+		"description": "Michigan has scheduled a Tuesday press conference at noon ET. BTN’s on-air coverage will start at 11:45 a.m. ET",
+		"subTitle": "Michigan Press Conference",
+		"type": "dl"
+	},
+	{
+		"comment": "DL:Channel:featured",
+		"id": "2623",
+		"data": {
+			"type": "4",
+			"platform": "15",
+			"style": "featured",
+			"channel": {
+				"id": "3",
+				"seoName": "CHANNEL-3",
+				"name": "Channel 3"
+			}
+		},
+		"title": "Channel 3 Olympic Games",
+		"description": "This is a long desc. This is a long desc. This is a long desc. This is a long desc. This is a long desc. This is a long desc. This is a long desc. This is a long desc. This is a long desc.",
+		"subTitle": "Sub Title Here It Is",
+		"type": "dl"
+	},
+	{
+		"comment": "BTN:headline; use DL:Link:headeline layout",
+		"date": "2016-08-19T19:25:08.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "BTN Bus Tour Heading to Minneapolis for tomorrows practice UW 8/22 NU 8/23 ILL 8/24 PU 8/25 &#8212; Gerry DiNardo (@gerrydinardo) August 19, 2016 The Minnesota program is on solid footing, having been to a bowl each of the last four seasons as Tracy Claeys assumes command. But the staff has been altered. Still, there is momentum coming off a bowl win that capped a disappointing 6-7 season. Claeys let go offensive coordinator/offensive line coach Matt Limegrover and quarterbacks coach Jim Zebrowski. Jay Johnson was hired from Louisiana-Lafayette to run the offense and coach quarterbacks, while Bart Miller was tabbed<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683394&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Dienhart: What I\u2019ll be watching at Minnesota football practice",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/19/dienhart-what-ill-be-watching-at-minnesota-football-practice/"
+	},
+	{
+		"comment": "Solr:Program; use DL:Program:default layout",
+		"date": "2016-08-16T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "159",
+			"source": "BTN Latest Videos",
+			"seoName": "best-things-from-michigan-fall-practice"
+		},
+		"description": "Dave, Gerry, and Howard discuss the best things they saw while watching the Michigan football practice.",
+		"id": "9804",
+		"title": "Best Things From Michigan Fall Practice",
+		"type": "program"
+	},
+	{
+		"comment": "Solr:Program BTN TV",
+		"date": "2016-08-16T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "209",
+			"purchaseTypeId": "1",
+			"source": "BTN Latest Videos",
+			"seoName": "riley-bullough-and-demetrious-cox-talk-msu-defense"
+		},
+		"description": "Michigan State defensive coordinator Harlon Barnett comments on the Michigan State defense while Riley Bullough and Demetrious Cox join Dave and Howard to go more in-depth on the subject.",
+		"id": "9804",
+		"title": "Riley Bullough and Demetrious Cox Talk MSU Defense",
+		"type": "program"
+	},
+	{
+		"comment": "Solr:Program BTN Plus",
+		"date": "2016-08-16T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "75",
+			"purchaseTypeId": "2",
+			"source": "BTN Latest Videos",
+			"seoName": "jake-butt-amara-darboh-on-coach-harbaugh-in-year-2"
+		},
+		"description": "Michigan TE Jake Butt and WR Amara Darboh talk about what's different in year two with Jim Harbaugh as head coach.",
+		"id": "9804",
+		"title": "Jake Butt, Amara Darboh on Coach Harbaugh in Year 2",
+		"type": "program"
+	},
+	{
+		"comment": "BTN:rss; TODO no thumbnail",
+		"date": "2016-08-18T14:26:00.000Z",
+		"data": {
+			"category": "General",
+			"s:story_id": "33513"
+		},
+		"description": "<img src=\"http://fightingillini.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2016/8/18/oskeerewards_2000x980.jpg\" /><br /><br />Download for iPhone | Download for Droid\n",
+		"title": "Illinois Athletics Unveils Student Rewards App",
+		"type": "rss",
+		"image": "http://fightingillini.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2016/8/18/oskeerewards_2000x980.jpg",
+		"url": "http://fightingillini.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2016/8/18/oskeerewards_2000x980.jpg"
+	},
+	{
+		"date": "2016-08-17T17:12:00.000Z",
+		"data": {
+			"category": "Football, General",
+			"s:story_id": "33507"
+		},
+		"description": "<img src=\"http://fightingillini.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2016/8/12/Practice1_Spring2016_DRi_4643.jpg\" /><br /><br />",
+		"title": "Victory. Illinois. Varsity.",
+		"type": "rss",
+		"image": "http://fightingillini.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2016/8/18/oskeerewards_2000x980.jpg",
+		"url": "http://fightingillini.com/common/controls/image_handler.aspx?thumb_prefix=rp_primary&image_path=/images/2016/8/12/Practice1_Spring2016_DRi_4643.jpg"
+	},
+	{
+		"date": "2016-08-19T17:14:47.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "Our annual summer football tour is headed to Minneapolis, Minnesota, to catch Tracy Claeys' first training camp.<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=681470&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "@BTNStatsGuys: 5 things to know about Minnesota Golden Gophers",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/19/btnstatsguys-5-things-to-know-about-minnesota-golden-gophers/"
+	},
+	{
+		"date": "2016-08-19T14:43:41.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "The letters are flowing in as I am on the road for the Big Ten camp tour. I have questions about Penn State\u2019s depth, Michigan State\u2019s ability to develop talent and Michigan\u2019s chances to beat Ohio State this season, among others. Let\u2019s go!<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683396&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Big Ten Mailbag: Your latest football questions answered",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/19/big-ten-mailbag-your-latest-football-questions-answered/"
+	},
+	{
+		"date": "2016-08-19T13:00:07.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "A look at how the conference contributes to a healthy, happy world.<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683346&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Medical milestones abound in the Big Ten: BTN LiveBIG",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/19/medical-milestones-abound-in-the-big-ten-btn-livebig/"
+	},
+	{
+		"date": "2016-08-18T21:16:22.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "Stop No. 9 on the BTN bus tour brought us to Nebraska practice Thursday. The Cornhuskers, fresh off a 6-7 season in Mike Riley's debut, return plenty of talent on a team trying to dethrone defending Big Ten West champ and rival Iowa.<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683353&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Football tour notebook: Fun takes from Nebraska practice",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/18/football-tour-notebook-fun-takes-from-nebraska-practice/"
+	},
+	{
+		"date": "2016-08-18T20:47:59.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "LINCOLN, Neb. &#8212; Mike Riley is looking for more in his second season in Lincoln. His debut was marked by myriad close losses. The good news: The Huskers finished 2015 on a roll, capping the season with a big bowl win over UCLA. [ MORE: Get Tom Dienhart&#8217;s fun takes from Nebraska practice ] There are some good building blocks moving forward as Nebraska, which is searching for its first conference title of any sort since 1999, looks to make a move in the Big Ten West. Here is what I learned at Cornhusker practice. 1. This will be one<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683348&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Dienhart: Here\u2019s what I learned at Nebraska football practice",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/18/dienhart-heres-what-i-learned-at-nebraska-football-practice/"
+	},
+	{
+		"date": "2016-08-18T14:42:32.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "Before the premiere of \"Green &#38; White Days: Inside Michigan State Training Camp, presented by Meijer,\" at 7 p.m. ET tonight, BTN.com senior writer Tom Dienhart takes a look at a handful of Spartans' position battles that should be monitored this summer.<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683130&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Get ready for Thursday night\u2019s premiere of \u2018Green & White Days\u2019",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/18/get-ready-for-thursday-nights-premiere-of-green-white-days/"
+	},
+	{
+		"date": "2016-08-18T14:00:30.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "Does this post feature squid-based technology? You bet it does!<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683187&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Penn State innovates self-healing textiles: BTN LiveBIG",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/18/penn-state-innovates-self-healing-textiles-btn-livebig/"
+	},
+	{
+		"date": "2016-08-17T19:36:43.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "The BTN bus tour stopped in Iowa City, Iowa, on Wednesday to check out the defending Big Ten West champions. Get BTN.com senior writer Tom Dienhart's fun takes from the physical practice inside.<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683181&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Football tour notebook: Fun takes from Iowa practice",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/17/football-tour-notebook-fun-takes-from-iowa-practice/"
+	},
+	{
+		"date": "2016-08-17T18:29:58.000Z",
+		"thumbnail": "http://bigtennetworks.files.wordpress.com/2016/08/kingpost.jpeg",
+		"subTitle": "Tom Dienhart, BTN.com Senior Writer",
+		"data": {
+			"category": "Tom Dienhart"
+		},
+		"description": "The Big Ten Conference announced its 2016 men\u2019s soccer preseason coaches poll and preseason honors list on Wednesday, with Maryland claiming the top spot among the nine conference teams. View the complete preseason coaches poll and players to watch list below. BIG TEN MEN\u2019S SOCCER PRESEASON COACHES POLL 1. Maryland 2. Indiana 3. Ohio State 4. Rutgers 5. Michigan 6. Michigan State 7. Wisconsin 8. Penn State 9. Northwestern  *** BIG TEN MEN\u2019S SOCCER PRESEASON HONORS LIST Andrew Gutman, Indiana, So., Defender Grant Lillard, Indiana, Jr., Defender Tanner Thompson, Indiana, Sr., Midfielder Alex Crognale, Maryland, Sr., Defender Chris Odoi-Atsem, Maryland,<img alt=\"\" border=\"0\" src=\"http://pixel.wp.com/b.gif?host=btn.com&#038;blog=26303122&#038;post=683200&#038;subd=bigtennetworks&#038;ref=&#038;feed=1\" width=\"1\" height=\"1\" />",
+		"title": "Maryland voted preseason Big Ten men\u2019s soccer favorite",
+		"type": "headline",
+		"url": "http://btn.com/2016/08/17/maryland-voted-preseason-big-ten-mens-soccer-favorite/"
+	},
+	{
+		"date": "2016-08-16T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "155",
+			"source": "BTN Latest Videos",
+			"seoName": "best-things-from-michigan-state-fall-practice"
+		},
+		"description": "Dave, Gerry, and Howard share the best things they saw while watching the Michigan State football practice.",
+		"id": "9804",
+		"title": "Best Things From Michigan State Fall Practice",
+		"type": "program"
+	},
+	{
+		"date": "2016-08-16T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "86",
+			"source": "BTN Latest Videos",
+			"seoName": "michigan-football-harbaugh-talks-about-the-quarterbacks"
+		},
+		"description": "Michigan head coach Jim Harbaugh talks about his quarterbacks after Monday's practice.",
+		"id": "9804",
+		"title": "Michigan Football: Harbaugh talks about the Quarterbacks",
+		"type": "program"
+	},
+	{
+		"date": "2016-08-16T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "61",
+			"source": "BTN Latest Videos",
+			"seoName": "wisconsin-football-scrimmage-starts-off-big-week-for-badgers"
+		},
+		"description": "After the first scrimmage of the fall for the Badgers, head coach Paul Chryst is ready to see big things from his team in the second week of camp.",
+		"id": "9804",
+		"title": "Wisconsin Football: Scrimmage starts off big week for Badgers",
+		"type": "program"
+	},
+	{
+		"date": "2016-08-15T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "67",
+			"source": "BTN Latest Videos",
+			"seoName": "illinois-football-illini-oc-garrick-mcgee-post-practice"
+		},
+		"description": "Fighting Illini football offensive coordinator Garrick McGee post-practice interview following training camp practice No. 8 \u2013 Aug. 12, 2016.",
+		"id": "9804",
+		"title": "Illinois Football: Illini OC Garrick McGee Post-Practice",
+		"type": "program"
+	},
+	{
+		"date": "2016-08-15T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "45",
+			"source": "BTN Latest Videos",
+			"seoName": "northwestern-mens-soccer-drew-rosenberg-preseason-interview"
+		},
+		"description": "Senior Drew Rosenberg explains what this senior season will mean to him and what it will mean to go back home to New Jersey.",
+		"id": "9804",
+		"title": "Northwestern Men's Soccer: Drew Rosenberg Preseason Interview",
+		"type": "program"
+	},
+	{
+		"date": "2016-08-15T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "44",
+			"source": "BTN Latest Videos",
+			"seoName": "northwestern-mens-soccer-nathan-dearth-preseason-interview"
+		},
+		"description": "Senior Nathan Dearth gives his thoughts on the first couple days of camp and what it means to be a captain.",
+		"id": "9804",
+		"title": "Northwestern Men's Soccer: Nathan Dearth Preseason Interview",
+		"type": "program"
+	},
+	{
+		"date": "2016-08-15T04:00:00.000Z",
+		"thumbnail": "9804_es.jpg",
+		"data": {
+			"progType": "1",
+			"runtime": "143",
+			"source": "BTN Latest Videos",
+			"seoName": "northwestern-mens-soccer-tim-lenahan-preseason-trip-interview"
+		},
+		"description": "Head men's soccer coach Tim Lenahan recaps the first couple days of practice and offers a preview for the team's trip to New Jersey.",
+		"id": "9804",
+		"title": "Northwestern Men's Soccer: Tim Lenahan Preseason Trip Interview",
+		"type": "program"
+	}
+]
