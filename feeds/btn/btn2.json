@@ -51,7 +51,7 @@
 				"name": "B1G Football Media Day 2",
 				"description": "B1G Football Media Day press conferences with head coaches Lovie Smith (Illinois), Kevin Wilson (Indiana), Mark Dantonio (MSU), Paul Chryst (Wisconsin), DJ Durkin (Maryland), Kirk Ferentz (Iowa) and Urban Meyer (OSU).  Plus, Commissioner Jim Delany speaks.",
 				"runtime": "159",
-				"id": "9804",
+				"id": 9804,
 				"runtimeHours": "2:38:52",
 				"seoName": "B1G-Football-Media-Day-2"
 			},
@@ -90,7 +90,7 @@
 				"name": "B1G Football Media Day 2",
 				"description": "B1G Football Media Day press conferences with head coaches Lovie Smith (Illinois), Kevin Wilson (Indiana), Mark Dantonio (MSU), Paul Chryst (Wisconsin), DJ Durkin (Maryland), Kirk Ferentz (Iowa) and Urban Meyer (OSU).  Plus, Commissioner Jim Delany speaks.",
 				"runtime": "159",
-				"id": "9804",
+				"id": 9804,
 				"runtimeHours": "2:38:52",
 				"purchaseTypeId": "2",
 				"seoName": "B1G-Football-Media-Day-2"
@@ -132,7 +132,7 @@
 				"name": "BTN Live: Football Media Day 2 Wrap",
 				"description": "BTN Live recaps B1G Football Media Day 2 as coaches and players join Dave Revsine, Gerry DiNardo and Howard Griffith on the BTN set live from Chicago.",
 				"runtime": "199",
-				"id": "14484",
+				"id": 14484,
 				"runtimeHours": "3:18:49",
 				"purchaseTypeId": "1",
 				"seoName": "btn-live-football-media-day-2-wrap"
@@ -183,8 +183,8 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"free": "1",
-				"gameState": "3",
+				"free": 1,
+				"gameState": 3,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"isGame": "false"
 			},
@@ -209,8 +209,8 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"free": "0",
-				"gameState": "3",
+				"free": 0,
+				"gameState": 3,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"isGame": "false"
 			},
@@ -235,7 +235,7 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"gameState": "3",
+				"gameState": 3,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"isGame": "false"
 			},
@@ -261,8 +261,8 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"free": "1",
-				"gameState": "3",
+				"free": 1,
+				"gameState": 3,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"isGame": "false"
 			},
@@ -289,8 +289,8 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"free": "0",
-				"gameState": "3",
+				"free": 0,
+				"gameState": 3,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"isGame": "false"
 			},
@@ -317,7 +317,7 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"gameState": "3",
+				"gameState": 3,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"isGame": "false"
 			},
@@ -343,7 +343,7 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"gameState": "0",
+				"gameState": 0,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"awayTeam": {
 					"id": "379",
@@ -381,7 +381,7 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"gameState": "0",
+				"gameState": 0,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"awayTeam": {
 					"id": "379",
@@ -420,7 +420,7 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"gameState": "1",
+				"gameState": 1,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"awayTeam": {
 					"id": "379",
@@ -460,7 +460,7 @@
 				"dateTimeGMT": "2016-05-15T16:30:10.000",
 				"sportName": "Other",
 				"extId": "201605158",
-				"gameState": "3",
+				"gameState": 3,
 				"endDateTimeGMT": "2016-05-15T18:01:24.000",
 				"result": "F",
 				"awayTeam": {
