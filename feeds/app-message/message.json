@@ -1,0 +1,80 @@
+{
+  "messages": [
+    {
+      "ID": 1,
+      "GroupID": 3,
+      "Frequency": 3,
+      "Message": "aaa",
+      "Trigger": "appOpen",
+      "StartTime": "2017-03-13T00:00:00.000",
+      "EndTime": "2017-05-27T23:59:59.900Z",
+      "ButtonText": "text",
+      "NoThanks": false,
+      "OptOut": false
+    },
+    {
+      "ID": 2,
+      "GroupID": 3,
+      "Frequency": 3,
+      "Message": "hihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihihi",
+      "Trigger": "appOpen",
+      "StartTime": "2017-03-07T00:00:00.000",
+      "EndTime": "2017-04-01T23:59:59.900Z",
+      "PurchaseType": "L",
+      "NoThanks": false,
+      "OptOut": false
+    },
+    {
+      "ID": 3,
+      "GroupID": 3,
+      "Frequency": 3,
+      "Message": "appOpenappOpenappOpenappOpenappOpenappOpenappOpen",
+      "Trigger": "appOpen",
+      "StartTime": "2017-03-01T00:00:00.000",
+      "EndTime": "2017-04-01T23:59:59.900Z",
+      "ButtonText": "dee",
+      "NoThanks": false,
+      "OptOut": false
+    },
+    {
+      "ID": 4,
+      "GroupID": 3,
+      "Frequency": 3,
+      "Message": "Try FAN PASS today! Your free trial includes unlimited access to all Linear SKY Sport Channel 1,2,3 and 4 all vod content on your mobile phone only for 60 days free of charge. You will not be charged until after the trial period ends, and you may cancel at any time.  You will not be charged until after the trial period ends, and you may cancel at any time.  You will not be charged until after the trial period ends, and you may cancel at any time. ",
+      "Trigger": "appOpen",
+      "StartTime": "2017-03-12T00:00:00.000",
+      "ButtonText": "test",
+      "Link": "https://www.ufc.tv/",
+      "Platform": 1,
+      "NoThanks": false,
+      "OptOut": false
+    },
+    {
+      "ID": 7,
+      "GroupID": 3,
+      "Frequency": 3,
+      "Message": "This is an authentication message.",
+      "Trigger": "authentication",
+      "CurrentSKU": "PV,WWE",
+      "PurchaseType": "P",
+      "Platform": 1,
+      "NoThanks": false,
+      "OptOut": false
+    },
+    {
+      "ID": 8,
+      "GroupID": 3,
+      "Frequency": 0,
+      "Message": "This is a message for Monty",
+      "Trigger": "authentication",
+      "CurrentSKU": "WWE",
+      "StartTime": "2017-03-16T00:00:00.000",
+      "ButtonText": "Button Text",
+      "Link": "https://www.baidu.com/",
+      "Style": "style",
+      "PurchaseType": "P",
+      "NoThanks": true,
+      "OptOut": true
+    }
+  ]
+}
