@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--NeuLion Adaptive Streaming Server Version: 4.2.20180105.20166 -->
+<MPD profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT2M7.640S" minBufferTime="PT10.0S" maxSegmentDuration="PT4.0S" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
+    <Period id="1" start="PT0S">
+        <AdaptationSet mimeType="video/mp4" startWithSAP="1" id="0" contentType="video" maxWidth="400" maxHeight="224" maxFrameRate="30000/1001" segmentAlignment="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
+            <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="cenc" />
+            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="cenc" />
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+            <Role schemeIdUri="urn:neulion:audio:displayname" value="English" />
+            <SegmentTemplate timescale="1000" media="$RepresentationID$/Time=$Time$.m4s" initialization="$RepresentationID$/Time=init.m4s">
+                <SegmentTimeline>
+                    <S t="0" d="4004" />
+                    <S t="4004" d="4004" />
+                    <S t="8008" d="4004" />
+                    <S t="12012" d="4004" />
+                    <S t="16016" d="4004" />
+                    <S t="20020" d="4004" />
+                    <S t="24024" d="4004" />
+                    <S t="28028" d="4004" />
+                    <S t="32032" d="4004" />
+                    <S t="36036" d="4004" />
+                    <S t="40040" d="4004" />
+                    <S t="44044" d="4004" />
+                    <S t="48048" d="4004" />
+                    <S t="52052" d="4004" />
+                    <S t="56056" d="4004" />
+                    <S t="60060" d="4004" />
+                    <S t="64064" d="4004" />
+                    <S t="68068" d="4004" />
+                    <S t="72072" d="4004" />
+                    <S t="76076" d="4004" />
+                    <S t="80080" d="4004" />
+                    <S t="84084" d="4004" />
+                    <S t="88088" d="4004" />
+                    <S t="92092" d="4004" />
+                    <S t="96096" d="4004" />
+                    <S t="100100" d="4004" />
+                    <S t="104104" d="4004" />
+                    <S t="108108" d="4004" />
+                    <S t="112112" d="4004" />
+                    <S t="116116" d="4004" />
+                    <S t="120120" d="4004" />
+                    <S t="124124" d="3504" />
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation width="400" height="224" sar="1:1" frameRate="30000/1001" codecs="avc1.4D4015" id="shanghai_400_video" bandwidth="405000" />
+        </AdaptationSet>
+        <AdaptationSet mimeType="audio/mp4" startWithSAP="1" id="1" lang="eng" contentType="audio" segmentAlignment="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+            <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
+            <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95" value="cenc" />
+            <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed" value="cenc" />
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+            <Role schemeIdUri="urn:neulion:audio:displayname" value="English" />
+            <InbandEventStream schemeIdUri="urn:scte:scte35:2013:xml" value="1" />
+            <SegmentTemplate timescale="1000" media="$RepresentationID$/Time=$Time$.m4s" initialization="$RepresentationID$/Time=init.m4s">
+                <SegmentTimeline>
+                    <S t="0" d="1997" />
+                    <S t="1997" d="1997" />
+                    <S t="3994" d="1997" />
+                    <S t="5991" d="1997" />
+                    <S t="7988" d="1997" />
+                    <S t="9985" d="1996" />
+                    <S t="11981" d="1997" />
+                    <S t="13978" d="2021" />
+                    <S t="15999" d="1996" />
+                    <S t="17995" d="1997" />
+                    <S t="19992" d="1997" />
+                    <S t="21989" d="1997" />
+                    <S t="23986" d="1997" />
+                    <S t="25983" d="1997" />
+                    <S t="27980" d="1997" />
+                    <S t="29977" d="2020" />
+                    <S t="31997" d="1997" />
+                    <S t="33994" d="1997" />
+                    <S t="35991" d="1997" />
+                    <S t="37988" d="1997" />
+                    <S t="39985" d="1997" />
+                    <S t="41982" d="1997" />
+                    <S t="43979" d="2020" />
+                    <S t="45999" d="1997" />
+                    <S t="47996" d="1997" />
+                    <S t="49993" d="1996" />
+                    <S t="51989" d="1997" />
+                    <S t="53986" d="1997" />
+                    <S t="55983" d="1997" />
+                    <S t="57980" d="1997" />
+                    <S t="59977" d="2020" />
+                    <S t="61997" d="1997" />
+                    <S t="63994" d="1997" />
+                    <S t="65991" d="1997" />
+                    <S t="67988" d="1997" />
+                    <S t="69985" d="1997" />
+                    <S t="71982" d="1997" />
+                    <S t="73979" d="2020" />
+                    <S t="75999" d="1997" />
+                    <S t="77996" d="1997" />
+                    <S t="79993" d="1997" />
+                    <S t="81990" d="1997" />
+                    <S t="83987" d="1996" />
+                    <S t="85983" d="1997" />
+                    <S t="87980" d="1997" />
+                    <S t="89977" d="2020" />
+                    <S t="91997" d="1997" />
+                    <S t="93994" d="1997" />
+                    <S t="95991" d="1997" />
+                    <S t="97988" d="1997" />
+                    <S t="99985" d="1997" />
+                    <S t="101982" d="1997" />
+                    <S t="103979" d="2020" />
+                    <S t="105999" d="1997" />
+                    <S t="107996" d="1997" />
+                    <S t="109993" d="1997" />
+                    <S t="111990" d="1997" />
+                    <S t="113987" d="1997" />
+                    <S t="115984" d="1997" />
+                    <S t="117981" d="1997" />
+                    <S t="119978" d="2020" />
+                    <S t="121998" d="1997" />
+                    <S t="123995" d="1996" />
+                    <S t="125991" d="1649" />
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation audioSamplingRate="44100" codecs="mp4a.40.2" id="shanghai_400_audio" bandwidth="151000">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>
