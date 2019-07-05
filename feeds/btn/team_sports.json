@@ -1,0 +1,300 @@
+{
+  "teams":[
+    {
+      "id": "ALL",
+      "name": "Btn Ten",
+      "city": "UU4LeRw7pIZ_kseS4Krn_DQA",
+      "catId": "",
+      "catSeoName": "",
+      "primaryColor": "#14284b",
+      "secondaryColor": "#f26649",
+      "code": "btn"
+    },
+    {
+      "id": "22",
+      "name": "Fighting Illini",
+      "city": "PL2RRF9GtC9s3koItvE3DX-6p52V_V5Bl4",
+      "catId": "24",
+      "catSeoName": "illinois",
+      "primaryColor": "#14284b",
+      "secondaryColor": "#f26649",
+      "code": "illinois",
+      "twitter": "illinoisonbtn"
+    },
+    {
+      "id": "29",
+      "name": "Hoosiers",
+      "city": "PL2RRF9GtC9s20GgDZ4JebwB3agdxmfMNC",
+      "catId": "25",
+      "catSeoName": "indiana",
+      "primaryColor": "#a30d1d",
+      "secondaryColor": "#ffffff",
+      "code": "indiana",
+      "twitter": "IndianaOnBTN"
+    },
+    {
+      "id": "20",
+      "name": "Hawkeyes",
+      "city": "PL2RRF9GtC9s38QkKZgDVTZEbpNL_5dbot",
+      "catId": "26",
+      "catSeoName": "iowa",
+      "primaryColor": "#1e1e1e",
+      "secondaryColor": "#ffd911",
+      "code": "iowa",
+      "twitter": "IowaOnBTN"
+    },
+    {
+      "id": "336",
+      "name": "Terrapins",
+      "city": "PL2RRF9GtC9s2WruvMF9rVTHmP-rm5hsmI",
+      "catId": "90",
+      "catSeoName": "maryland",
+      "primaryColor": "#e31937",
+      "secondaryColor": "#ffd520",
+      "code": "maryland",
+      "twitter": "MarylandOnBTN"
+    },
+    {
+      "id": "17",
+      "name": "Wolverines",
+      "city": "PL2RRF9GtC9s2h0rIq6UhC7LWuy4gu1kpa",
+      "catId": "27",
+      "catSeoName": "michigan",
+      "primaryColor": "#00285e",
+      "secondaryColor": "#ffd520",
+      "code": "michigan",
+      "twitter": "MichiganOnBTN"
+    },
+    {
+      "id": "26",
+      "name": "Spartans",
+      "city": "PL2RRF9GtC9s2kckNKqw66XxGSB6qikLdT",
+      "catId": "28",
+      "catSeoName": "michigan-state",
+      "primaryColor": "#1c453b",
+      "secondaryColor": "#ffffff",
+      "code": "michiganstate",
+      "twitter": "MichiganStOnBTN"
+    },
+    {
+      "id": "25",
+      "name": "Golden Gophers",
+      "city": "PL2RRF9GtC9s3mVUwHka7_EuK6UTLCTMkk",
+      "catId": "29",
+      "catSeoName": "minnesota",
+      "primaryColor": "#98061b",
+      "secondaryColor": "#ffb83a",
+      "code": "minnesota",
+      "twitter": "minnesotaonbtn"
+    },
+    {
+      "id": "27",
+      "name": "Cornhuskers",
+      "city": "PL2RRF9GtC9s3Eudqq0ZGd42C3CiL2uxCZ",
+      "catId": "30",
+      "catSeoName": "nebraska",
+      "primaryColor": "#d90000",
+      "secondaryColor": "#ffffff",
+      "code": "nebraska",
+      "twitter": "NebraskaOnBTN"
+    },
+    {
+      "id": "18",
+      "name": "Wildcats",
+      "city": "PL2RRF9GtC9s3JdMol-RmiveMWAMAqTG09",
+      "catId": "31",
+      "catSeoName": "northwestern",
+      "primaryColor": "#393a96",
+      "secondaryColor": "#ffffff",
+      "code": "northwestern",
+      "twitter": "NUOnBTN"
+    },
+    {
+      "id": "23",
+      "name": "Buckeyes",
+      "city": "PL2RRF9GtC9s2iWlHABwzqGAtl1Y6_BpaL",
+      "catId": "32",
+      "catSeoName": "ohio-state",
+      "primaryColor": "#c10435",
+      "secondaryColor": "#9ea4a6",
+      "code": "ohiostate",
+      "twitter": "ohiostateonbtn"
+    },
+    {
+      "id": "19",
+      "name": "Nittany Lions",
+      "city": "PL2RRF9GtC9s2b_RgB73SqppMavvX3xxN7",
+      "catId": "33",
+      "catSeoName": "penn-state",
+      "primaryColor": "#061843",
+      "secondaryColor": "#ffffff",
+      "code": "pennstate",
+      "twitter": "PennStateOnBTN"
+    },
+    {
+      "id": "21",
+      "name": "Boilermakers",
+      "city": "PL2RRF9GtC9s0WsboEOoIqpLVPx_jvVlua",
+      "catId": "34",
+      "catSeoName": "purdue",
+      "primaryColor": "#1e1e1e",
+      "secondaryColor": "#ceb888",
+      "code": "purdue",
+      "twitter": "PurdueOnBTN"
+    },
+    {
+      "id": "359",
+      "name": "Scarlet Knights",
+      "city": "PL2RRF9GtC9s2HwyULAttTtxhXnJVOH48w",
+      "catId": "91",
+      "catSeoName": "rutgers",
+      "primaryColor": "#1e1e1e",
+      "secondaryColor": "#fc1921",
+      "code": "rutgers",
+      "twitter": "RutgersOnBTN"
+    },
+    {
+      "id": "28",
+      "name": "Badgers",
+      "city": "PL2RRF9GtC9s2wAi5ZxDSmclI2fum6szy2",
+      "catId": "35",
+      "catSeoName": "wisconsin",
+      "primaryColor": "#d40026",
+      "secondaryColor": "#ffffff",
+      "code": "wisconsin",
+      "twitter": "WisconsinOnBTN"
+    }
+  ],
+  "sports": [
+    {
+      "id":"BB",
+      "name":"Baseball"
+    },
+    {
+      "id":"MBK",
+      "name":"Basketball",
+      "gender":"M"
+    },
+    {
+      "id":"WBK",
+      "name":"Basketball",
+      "gender":"W"
+    },
+    {
+      "id":"CC",
+      "name":"Cross Country"
+    },
+    {
+      "id":"FH",
+      "name":"Field Hockey"
+    },
+    {
+      "id":"FFB",
+      "name":"Football"
+    },
+    {
+      "id":"MGM",
+      "name":"Gymnastics",
+      "gender":"M"
+    },
+    {
+      "id":"WGM",
+      "name":"Gymnastics",
+      "gender":"W"
+    },
+    {
+      "id":"MHO",
+      "name":"Ice Hockey",
+      "gender":"M"
+    },
+    {
+      "id":"WHO",
+      "name":"Ice Hockey",
+      "gender":"W"
+    },
+    {
+      "id":"MLX",
+      "name":"Lacrosse",
+      "gender":"M"
+    },
+    {
+      "id":"WLX",
+      "name":"Lacrosse",
+      "gender":"W"
+    },
+    {
+      "id":"LOL",
+      "name":"League of Legends"
+    },
+    {
+      "id":"OTH",
+      "name":"Other"
+    },
+    {
+      "id":"MSC",
+      "name":"Soccer",
+      "gender":"M"
+    },
+    {
+      "id":"WSC",
+      "name":"Soccer",
+      "gender":"W"
+    },
+    {
+      "id":"SB",
+      "name":"Softball"
+    },
+    {
+      "id":"SD",
+      "name":"Swimming and Diving"
+    },
+    {
+      "id":"MSD",
+      "name":"Swimming and Diving",
+      "gender":"M"
+    },
+    {
+      "id":"WSD",
+      "name":"Swimming and Diving",
+      "gender":"W"
+    },
+    {
+      "id":"MTN",
+      "name":"Tennis",
+      "gender":"M"
+    },
+    {
+      "id":"WTN",
+      "name":"Tennis",
+      "gender":"W"
+    },
+    {
+      "id":"TF",
+      "name":"Track and Field"
+    },
+    {
+      "id":"MVB",
+      "name":"Volleyball",
+      "gender":"M"
+    },
+    {
+      "id":"WVB",
+      "name":"Volleyball",
+      "gender":"W"
+    },
+    {
+      "id":"MWP",
+      "name":"Water Polo",
+      "gender":"M"
+    },
+    {
+      "id":"WWP",
+      "name":"Water Polo",
+      "gender":"W"
+    },
+    {
+      "id":"WR",
+      "name":"Wrestling"
+    }
+  ]
+}
