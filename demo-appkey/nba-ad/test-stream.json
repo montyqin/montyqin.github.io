@@ -5,7 +5,7 @@
       "name": "DRM live channel stream",
       "ppt": {
         "type": "channel",
-        "id": 1,
+        "id": "1",
         "drmtoken":true
       }
     },
@@ -20,7 +20,7 @@
       "name": "DRM VOD stream",
       "ppt": {
         "type": "video",
-        "id": 123,
+        "id": "123",
         "drmtoken":true
       }
     },
@@ -28,26 +28,26 @@
       "name": "Non-DRM VOD stream",
       "ppt": {
         "type": "video",
-        "id": 123
+        "id": "123"
       }
     },
     {
       "name": "DRM Game stream",
       "ppt": {
         "type": "game",
-        "id": 123,
+        "id": "123",
         "drmtoken":true,
-        "gt":1,
-        "gs": 1
+        "gt":"1",
+        "gs": "1"
       }
     },
     {
       "name": "Non DRM Game stream",
       "ppt": {
         "type": "game",
-        "id": 123,
-        "gt":1,
-        "gs": 1
+        "id": "123",
+        "gt":"1",
+        "gs": "1"
       }
     }
   ]
