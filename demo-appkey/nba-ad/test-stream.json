@@ -3,6 +3,8 @@
   "streams": [
     {
       "name": "DRM live channel stream",
+      "playWithYospace":true,
+      "type":"neulion",
       "ppt": {
         "type": "channel",
         "id": "1",
@@ -11,6 +13,8 @@
     },
     {
       "name": "Non-DRM live channel stream",
+      "playWithYospace":true,
+      "type":"neulion",
       "ppt": {
         "type": "channel",
         "id": "1"
@@ -18,6 +22,8 @@
     },
     {
       "name": "DRM VOD stream",
+      "playWithYospace":true,
+      "type":"neulion",
       "ppt": {
         "type": "video",
         "id": "123",
@@ -26,6 +32,8 @@
     },
     {
       "name": "Non-DRM VOD stream",
+      "playWithYospace":true,
+      "type":"neulion",
       "ppt": {
         "type": "video",
         "id": "123"
@@ -33,6 +41,8 @@
     },
     {
       "name": "DRM Game stream",
+      "playWithYospace":true,
+      "type":"neulion",
       "ppt": {
         "type": "game",
         "id": "123",
@@ -43,12 +53,32 @@
     },
     {
       "name": "Non DRM Game stream",
+      "playWithYospace":true,
+      "type":"neulion",
       "ppt": {
         "type": "game",
         "id": "123",
         "gt":"1",
         "gs": "1"
       }
+    },
+    {
+      "name": "Yospace Android Live Test Stream",
+      "platform":"android",
+      "playWithYospace":true,
+      "type":"external",
+      "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,dashpoc1.mpd"
+    },
+    {
+      "name": "Yospace HLS Live Test Stream",
+      "playWithYospace":true,
+      "type":"external",
+      "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,hlspoc1.m3u8?yo.ac=true&yo.t.jt=1000"
+    },
+    {
+      "name": "Yospace HLS Live Test Stream",
+      "playWithYospace":false,
+      "url": "http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
     }
   ]
 }
