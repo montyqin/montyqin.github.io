@@ -64,10 +64,29 @@
       "provider": "",
       "source": "external",
       "platform": ["ios, android, tvos, androidtv"],
-      "playWithYospace":false,
       "params": {
         "url": "https://sample.stream.apple/demo.m3u8"
       }
-    }
+    },
+    {
+      "name": "Apple Sample HLS Stream(without init yospace) Android only",
+      "provider": "",
+      "source": "external",
+      "platform": ["android"],
+      "params": {
+        "url": "https://sample.stream.apple/demo.m3u8"
+      }
+    },
+    {
+      "name": "Apple Sample HLS Stream(without init yospace) iOS only",
+      "provider": "",
+      "source": "external",
+      "platform": ["ios"],
+      "params": {
+        "url": "https://sample.stream.apple/demo.m3u8"
+      }
+    },
+    
+
   ]
 }
