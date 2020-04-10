@@ -22,6 +22,16 @@
       }
     },
     {
+      "name": "Live Linear Channel - NO DRM Stream",
+      "provider": "yospace",
+      "source": "lioncms",
+      "platform": ["ios", "android"],
+      "params": {
+        "type": "channel",
+        "id": "1"
+      }
+    }
+    {
       "name": "Live Game - Non-DRM Stream",
       "provider": "yospace",
       "source": "lioncms",
