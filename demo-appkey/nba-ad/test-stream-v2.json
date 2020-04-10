@@ -18,7 +18,7 @@
       "params": {
         "type": "channel",
         "id": "1",
-        "drmtoken": "true"
+        "drmtoken": true
       }
     },
     {
@@ -38,8 +38,7 @@
       "platform": ["ios", "android"],
       "params": {
         "type": "game",
-        "id": "1001",
-        "drmtoken": false
+        "id": "1001"
       }
     },
     {
