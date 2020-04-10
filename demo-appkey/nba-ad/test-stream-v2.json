@@ -18,7 +18,7 @@
       "params": {
         "type": "channel",
         "id": "1",
-        "drmtoken": true
+        "drmtoken": "true"
       }
     },
     {
