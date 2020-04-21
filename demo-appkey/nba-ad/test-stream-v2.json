@@ -1,17 +1,9 @@
 {
-  "comments":{
-    "name": "The definition of the stream section",
-    "provider": "The stream provider that requires special handling.  The integrations that we have done include: yospace, dfp.  When provider is presented or its value is neither yospace nor dfp, no special logic would be needed",
-    "source": "Where the source endpoint comes from.  The possible values are: lioncms (from NeuLion CMS), dicecms (from Dice CMS), or external (the URL will be specified in the params section)",
-    "platforms" : ["an array that lists supported platforms: the platform values can be: ios, android, tvos, androidtv, firetv.  The device should list the item only when the platform is applied"],
-    "params": {
-      "key": "The params section contains the key value pairs used for specific provider, source and platform.  See the following examples that we are going to support for now."
-    }
-  },
   "name": "Lion Stream Tester",
+  "yospaceVideoType":"LIVE/NON_LINEAR/LIVE_PAUSE/NON_LINEAR_START_OVER"
   "streams": [
     {
-      "name": "Live Linear Channel - DRM Stream",
+      "name": "Live Linear - DRM Stream",
       "provider": "yospace",
       "source": "lioncms",
       "platform": ["ios", "android"],
@@ -22,77 +14,47 @@
       }
     },
     {
-      "name": "Live Linear Channel - NO DRM Stream",
-      "provider": "yospace",
-      "source": "lioncms",
-      "platform": ["ios", "android"],
-      "params": {
-        "type": "channel",
-        "id": "1"
-      }
-    },
-    {
-      "name": "Live Game - Non-DRM Stream",
-      "provider": "yospace",
-      "source": "lioncms",
-      "platform": ["ios", "android"],
-      "params": {
-        "type": "game",
-        "id": "1001"
-      }
-    },
-    {
-      "name": "Game of Throne - Non-DRM Stream",
-      "source": "lioncms",
-      "platform": ["ios", "android, tvos, androidtv"],
-      "params": {
-        "type": "video",
-        "id": "2002"
-      }
-    },
-    {
-      "name": "Live linear Channel - HLS Non-DRM Stream",
+      "name": "Live Linear - HLS Non-DRM",
       "provider": "yospace",
       "source": "external",
-      "platform": ["ios"],
+      "platform": ["ios", "android"],
       "params": {
         "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,hlspoc1.m3u8?yo.ac=true&yo.t.jt=1000"
       }
     },
     {
-      "name": "Live linear Channel - DASH Non-DRM Stream",
+      "name": "Live Linear - DASH Non-DRM",
       "provider": "yospace",
       "source": "external",
       "platform": ["android"],
       "params": {
-        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,dashpoc1.mpd?yo.ac=true"
+        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,dashpoc1.mpd?yo.ac=true&yo.t.jt=1000"
       }
     },
     {
-      "name": "Apple Sample HLS Stream(without init yospace)",
-      "provider": "",
+      "name": "Live linear - HLS Non-DRM with Preroll",
+      "provider": "yospace",
       "source": "external",
-      "platform": ["ios, android, tvos, androidtv"],
+      "platform": ["ios", "android"],
       "params": {
-        "url": "http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
+        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,hlspoc1_pre.m3u8?yo.ac=true&yo.t.jt=1000"
       }
     },
     {
-      "name": "Apple Sample HLS Stream(without init yospace) Android only",
-      "provider": "",
-      "source": "external",
-      "platform": ["android"],
+      "name": "VOD - HLS Non-DRM",
+      "source": "yospace",
+      "yospaceVideoType":"NON_LINEAR",
+      "platform": ["ios", "android"],
       "params": {
-        "url": "http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
+        "url": "https://csm-e.tls1.yospace.com/csm/access/212692768/aHR0cHM6Ly9uZXVjbG5iYXZvZG5zLmFrYW1haXplZC5uZXQvbmxkc192b2QvbmJhL3ZvZC90ZXN0L2NsZWFyL25sbmNwL2Jlc3RwbGF5cy92MS9zdHJlYW0vYmVzdHBsYXlzXzFfaXBhZC5tcDQubTN1OA==?yo.p.rd=true"
       }
     },
     {
-      "name": "Apple Sample HLS Stream(without init yospace) iOS only",
-      "provider": "",
+      "name": "Live linear - Endeavor Original Stream",
       "source": "external",
-      "platform": ["ios"],
+      "platform": ["ios", "android"],
       "params": {
-        "url": "https://sample.stream.apple/demo.m3u8"
+        "url": "https://neuclnlds321.akamaized.net/nlds/nba/test1/as/live/nlncp/test1_hd_ipad.m3u8"
       }
     }
   ]
