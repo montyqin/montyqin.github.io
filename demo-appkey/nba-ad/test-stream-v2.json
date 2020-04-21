@@ -1,6 +1,6 @@
 {
   "name": "Lion Stream Tester",
-  "yospaceVideoType":"LIVE/NON_LINEAR/LIVE_PAUSE/NON_LINEAR_START_OVER"
+  "yospaceVideoType":"LIVE/NON_LINEAR/LIVE_PAUSE/NON_LINEAR_START_OVER",
   "streams": [
     {
       "name": "Live Linear - DRM Stream",
