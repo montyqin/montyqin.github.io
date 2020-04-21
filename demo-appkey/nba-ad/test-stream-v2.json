@@ -42,7 +42,8 @@
     },
     {
       "name": "VOD - HLS Non-DRM",
-      "source": "yospace",
+      "provider":"yospace",
+      "source": "external",
       "yospaceVideoType":"NON_LINEAR",
       "platform": ["ios", "android"],
       "params": {
