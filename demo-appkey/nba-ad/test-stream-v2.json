@@ -11,7 +11,7 @@
         "type": "channel",
         "id": "1",
         "drmtoken": true,
-        "stream": "LINEAR"
+        "stream": "LIVE"
       }
     },
     {
