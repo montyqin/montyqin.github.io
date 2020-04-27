@@ -1,6 +1,5 @@
 {
   "name": "Lion Stream Tester",
-  "yospaceVideoType":"LIVE/NON_LINEAR/LIVE_PAUSE/NON_LINEAR_START_OVER",
   "streams": [
     {
       "name": "Live Linear - DRM Stream",
@@ -11,7 +10,7 @@
         "type": "channel",
         "id": "1",
         "drmtoken": true,
-        "stream": "LIVE"
+        "stream": "LINEAR"
       }
     },
     {
@@ -20,7 +19,8 @@
       "source": "external",
       "platform": ["ios", "android"],
       "params": {
-        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,hlspoc1.m3u8?yo.ac=true&yo.t.jt=1000"
+        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,hlspoc1.m3u8?yo.ac=true&yo.t.jt=1000",
+        "stream": "LINEAR"
       }
     },
     {
@@ -29,7 +29,8 @@
       "source": "external",
       "platform": ["android"],
       "params": {
-        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,dashpoc1.mpd?yo.ac=true&yo.t.jt=1000"
+        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,dashpoc1.mpd?yo.ac=true&yo.t.jt=1000",
+        "stream": "LINEAR"
       }
     },
     {
@@ -38,45 +39,28 @@
       "source": "external",
       "platform": ["ios", "android"],
       "params": {
-        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,hlspoc1_pre.m3u8?yo.ac=true&yo.t.jt=1000"
+        "url": "https://csm-e.tls1.yospace.com/csm/extlive/nbadev01,hlspoc1_pre.m3u8?yo.ac=true&yo.t.jt=1000",
+        "stream": "LINEAR"
       }
     },
     {
       "name": "VOD - HLS Non-DRM",
-      "provider":"yospace",
+      "provider": "yospace",
       "source": "external",
       "platform": ["ios", "android"],
       "params": {
-        "stream": "NON_LINEAR",
-        "url": "https://csm-e.tls1.yospace.com/csm/access/212692768/aHR0cHM6Ly9uZXVjbG5iYXZvZG5zLmFrYW1haXplZC5uZXQvbmxkc192b2QvbmJhL3ZvZC90ZXN0L2NsZWFyL25sbmNwL2Jlc3RwbGF5cy92MS9zdHJlYW0vYmVzdHBsYXlzXzFfaXBhZC5tcDQubTN1OA==?yo.p.rd=true"
+        "url": "https://csm-e.tls1.yospace.com/csm/access/212692768/aHR0cHM6Ly9uZXVjbG5iYXZvZG5zLmFrYW1haXplZC5uZXQvbmxkc192b2QvbmJhL3ZvZC90ZXN0L2NsZWFyL25sbmNwL2Jlc3RwbGF5cy92Mi9zdHJlYW0vYmVzdHBsYXlzXzJfaXBhZC5tcDQubTN1OA==?yo.p.rd=true",
+        "stream": "NON_LINEAR"
       }
     },
     {
-      "name": "VOD - HLS Non-DRM wihout yospace",
-      "source": "external",
-      "yospaceVideoType":"NON_LINEAR",
-      "platform": ["ios", "android"],
-      "params": {
-        "url": "https://csm-e.tls1.yospace.com/csm/access/212692768/aHR0cHM6Ly9uZXVjbG5iYXZvZG5zLmFrYW1haXplZC5uZXQvbmxkc192b2QvbmJhL3ZvZC90ZXN0L2NsZWFyL25sbmNwL2Jlc3RwbGF5cy92MS9zdHJlYW0vYmVzdHBsYXlzXzFfaXBhZC5tcDQubTN1OA==?yo.p.rd=true"
-      }
-    },
-    {
-      "name": "VOD - Dash Non-DRM",
-      "provider":"yospace",
+      "name": "VOD - DASH Non-DRM",
+      "provider": "yospace",
       "source": "external",
       "platform": ["android"],
       "params": {
-        "stream": "NON_LINEAR",
-        "url": "https://csm-e.tls1.yospace.com/csm/access/213197306/aHR0cHM6Ly9uZXVjbG5iYXZvZG5zLmFrYW1haXplZC5uZXQvbmxkc192b2QvbmJhL3ZvZC90ZXN0L2NsZWFyL25sbmNwL2Jlc3RwbGF5cy92MS9zdHJlYW0vYmVzdHBsYXlzXzFfcGMubXA0Lm1wZA==?yo.p.rd=true"
-      }
-    },
-    {
-      "name": "VOD - Dash Non-DRM without yospace",
-      "source": "external",
-      "yospaceVideoType":"NON_LINEAR",
-      "platform": ["android"],
-      "params": {
-        "url": "https://csm-e.tls1.yospace.com/csm/access/213197306/aHR0cHM6Ly9uZXVjbG5iYXZvZG5zLmFrYW1haXplZC5uZXQvbmxkc192b2QvbmJhL3ZvZC90ZXN0L2NsZWFyL25sbmNwL2Jlc3RwbGF5cy92MS9zdHJlYW0vYmVzdHBsYXlzXzFfcGMubXA0Lm1wZA==?yo.p.rd=true"
+        "url": "https://csm-e.tls1.yospace.com/csm/access/213197306/aHR0cHM6Ly9uZXVjbG5iYXZvZG5zLmFrYW1haXplZC5uZXQvbmxkc192b2QvbmJhL3ZvZC90ZXN0L2NsZWFyL25sbmNwL2Jlc3RwbGF5cy92Mi9zdHJlYW0vYmVzdHBsYXlzXzJfcGMubXA0Lm1wZA==",
+        "stream": "NON_LINEAR"
       }
     },
     {
