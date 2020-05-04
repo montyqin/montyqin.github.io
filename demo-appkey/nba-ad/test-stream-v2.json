@@ -1,6 +1,33 @@
 {
   "name": "Lion Stream Tester",
   "streams": [
+     {
+      "name": "Live, HLS, Non-DRM, Midroll Only",
+      "source": "external",
+      "platform": ["ios", "android"],
+      "params": {
+        "url": "https://csm-e-cenbaause1live416-0970905199ce5dde9.bln1.yospace.com/csm/extlive/nbadev01,hlspoc1.m3u8?yo.av=2",
+        "stream": "LINEAR"
+      }
+    },
+    {
+      "name": "Live, HLS, Non-DRM, Preroll and Midroll",
+      "source": "external",
+      "platform": ["ios", "android"],
+      "params": {
+        "url": "https://csm-e-cenbaause1live416-0970905199ce5dde9.bln1.yospace.com/csm/extlive/nbadev01,hlspoc1.m3u8?yo.av=2",
+        "stream": "LINEAR"
+      }
+    },
+    {
+      "name": "Live, HLS, Non-DRM, WM FreeWheel",
+      "source": "external",
+      "platform": ["ios", "android"],
+      "params": {
+        "url": "https://csm-e-cenbaause1live416-0970905199ce5dde9.bln1.yospace.com/csm/extlive/nbadev01,hls-clear.m3u8?yo.av=2",
+        "stream": "LINEAR"
+      }
+    },
     {
       "name": "Live Linear - DRM Stream",
       "provider": "yospace",
