@@ -1,0 +1,125 @@
+{
+  "base": {
+    "dataSource": [
+      {
+        "nlid": "nl.feed.menu",
+        "url": "http://mobile.neulion.net.cn/svn/projects/template-mobile/menu.json"
+      },
+      {
+        "nlid": "nl.feed.localization",
+        "url": "http://mobile.neulion.net.cn/svn/projects/template-mobile/localization/localization_en.string"
+      }
+    ],
+    "services": [
+      {
+        "nlid": "nl.service.app",
+        "url": "https://dce-frontoffice.imggaming.com/api"
+      },
+      {
+        "nlid": "nl.service.qos",
+        "url": "https://nlnbaqos.neulion.com/msdrecv/ProxyBean",
+        "params": {
+          "siteID": "nba",
+          "productID": "nba"
+        }
+      },
+      {
+        "nlid": "nl.service.chromecast",
+        "params": {
+          "appId": "50BC1993"
+        }
+      },
+      {
+        "nlid": "nl.service.interval",
+        "params": {
+          "default": 300
+        }
+      },
+      {
+        "nlid": "nl.service.purchase.settings",
+        "keepRawJSON": true,
+        "params": {
+          "isStore": false,
+          "mobileSupportSKUs": ".*",
+          "subSKUs": ".*",
+          "ppvSKUs": ".*SINGLEGAME.*",
+          "freeSKUs": ".*FREESKU.*",
+          "holderSKUs": {},
+          "consumableSKUs": [],
+          "store": {
+            "validSKUs_android": ".*",
+            "skuRule_android": "com.nba.gametime.2017.universal.${sku}",
+            "skuRuleSub_android": "com.nba.gametime.2016.universal.${sku}",
+            "skuRulePPV_android": "com.nba.gametime.2017.${sku}_${id}",
+            "validSKUs_iOS": ".*",
+            "skuRule_iOS": "com.nbaimd.gametime.2017.${code}.${sku}",
+            "skuRuleSub_iOS": "com.nbaimd.gametime.universal.${skuHolder}${sku}",
+            "skuRulePPV_iOS": "com.nbaimd.gametime.universal.2017.${code}.${sku}_${id}",
+            "shareSecret": "449d4843b9a04a1fb6b6e358759e3b77",
+            "base64EncodedPublicKey": "xxx"
+          },
+          "dev": {
+            "validSKUs_android": ".*\\.2016\\..*|.*\\.2017\\..*",
+            "skuRule_android": "com.nba.gametime.2017.universal.${sku}",
+            "skuRuleSub_android": "com.nba.gametime.2016.universal.${sku}",
+            "skuRulePPV_android": "com.nba.gametime.2017.${sku}_${id}",
+            "validSKUs_iOS": ".*\\.2016\\..*|.*\\.2017\\..*",
+            "skuRule_iOS": "com.neulion.gametime.2017.${code}.${sku}",
+            "skuRuleSub_iOS": "com.neulion.gametime.universal.${sku}",
+            "skuRulePPV_iOS": "com.neulion.gametime.universal.2017.${code}.${sku}_${id}",
+            "shareSecret": "74903462c7db4182922262177b198b12",
+            "base64EncodedPublicKey": "xxxx"
+          }
+        }
+      }
+    ],
+    "appParams": [
+      {
+        "nlid": "nl.app.settings",
+        "params": {
+          "debugLog": true,
+          "useAirPlay": true,
+          "timezone": "US/Eastern",
+          "timezone_format": "Pacific/Auckland",
+          "timezone_suffix": "NZT"
+        }
+      },
+      {
+        "nlid": "nl.app.greeting",
+        "enabled": false,
+        "params": {
+          "title": "@nlkey/nl.app.greeting.title",
+          "message": "@nlkey/nl.app.greeting.message",
+          "forceUpgrade": false,
+          "upgradeUrl": "https://play.google.com/store/apps/details?id=nz.co.skytv.fanpass"
+        }
+      },
+      {
+        "nlid": "nl.app.info",
+        "params": {
+          "nlurl": "http://www.neulion.com",
+          "advInfo": true,
+          "email": {
+            "enable": true,
+            "to": "support@fanpass.co.nz",
+            "subject": "@nlkey/nl.app.info.subject"
+          }
+        }
+      },
+      {
+        "nlid": "nl.app.share",
+        "params": {
+          "subject": "${title}",
+          "game": "I'm watching on my <a href=\"https://itunes.apple.com/us/app/xxx/xxx?mt=8\">ESPN App</a>! available in the App Store. \r\n ${appServer}/game/${seoName}",
+          "program": "I'm watching on my <a href=\"https://itunes.apple.com/us/app/xxx/xxx?mt=8\">ESPN App</a>! available in the App Store. \r\n ${appServer}/video/${seoName}",
+          "channel": "I'm watching on my <a href=\"https://itunes.apple.com/us/app/xxx/xxx?mt=8\">ESPN App</a>! available in the App Store. \r\n ${appServer}/video/${seoName}",
+          "news": "I'm watching on my <a href=\"https://itunes.apple.com/us/app/xxx/xxx?mt=8\">ESPN App</a>! available in the App Store. \r\n ${link}"
+        }
+      }
+    ]
+  },
+  "locale": {
+    "country": {},
+    "language": {}
+  }
+}
