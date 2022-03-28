@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://share-image-test.surge.sh/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share image test</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+          "Helvetica Neue", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+          monospace;
+      }
+      main {
+        padding: 1rem;
+      }
+      canvas,
+      img {
+        outline: 1px solid black;
+        margin-top: 1rem;
+      }
+      .container {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h2 id="status">Webview Supported</h2>
+        <button id="btn">Save image</button>
+      </div>
+      <div class="container">
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <p>Canvas</p>
+      </div>
+      <div class="container">
+        <img id="image" src="https://share-image-test.surge.sh/">
+        <p>Image with base64Url</p>
+      </div>
+    </main>
+
+    <script type="text/javascript">
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+        if (ctx instanceof CanvasRenderingContext2D) {
+          ctx.fillStyle = "#ffffff";
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+          const total = 50;
+          const radius = canvas.width * 0.25;
+          for (let i = 0; i < total; i++) {
+            ctx.beginPath();
+            ctx.fillStyle = `rgb(${Math.floor(
+              Math.random() * 255
+            )},${Math.floor(Math.random() * 255)},
+            ${Math.floor(Math.random() * 255)})`;
+            const theta = i * ((Math.PI * 2) / (total - 1));
+            const x = canvas.width / 2 + Math.cos(theta) * radius;
+            const y = canvas.height / 2 + Math.sin(theta) * radius;
+            ctx.arc(x, y, 5, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.closePath();
+          }
+        }
+      }
+      draw();
+
+      function browserSupported() {
+        return window.webkit && window.webkit.messageHandlers;
+      }
+
+      function shareImage() {
+        const canvas = document.getElementById("canvas");
+        const image = document.getElementById("image");
+        const imageBase64Str = canvas.toDataURL("image/jpeg", 0.75);
+        image.src = imageBase64Str;
+
+        console.log(
+          `window.JSAppFunction.WebViewCallback("shareImage", "share-image.jpg", ${imageBase64Str});`
+        );
+
+        window.JSAppFunction.WebViewCallback(
+          "shareImage",
+          "share-image.jpg",
+          imageBase64Str
+        );
+
+      }
+
+      btn.addEventListener("click", shareImage);
+
+      window.onload = function () {
+        // showBase64Image();
+        // replacing UIWebView with WKWebView
+        const status = document.getElementById("status");
+        status.innerHTML = true
+          ? "Webview Supported"
+          : "webview Unsupported";
+
+        if (window.JSAppFunction == null && browserSupported()) {
+          window.JSAppFunction = {};
+          window.JSAppFunction.WebViewCallback = function (
+            callbackObj0,
+            callbackObj1,
+            callbackObj2,
+            callbackObj3
+          ) {
+            var callbackObj = [
+              callbackObj0,
+              callbackObj1,
+              callbackObj2,
+              callbackObj3,
+            ];
+            window.webkit.messageHandlers.WebViewCallback.postMessage(
+              callbackObj
+            );
+          };
+        }
+      };
+    </script>
+  
+
+</body></html>
