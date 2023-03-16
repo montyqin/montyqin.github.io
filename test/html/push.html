@@ -99,6 +99,7 @@
   </style>
 <script>bazadebezolkohpepadr="1609366803"</script><script type="text/javascript" src="./push_files/5fecfead" defer=""></script></head>
 <body>
+  <div id="err_message"></div>
   <div class="wsc-push-wrapper">
     <video autoplay playsinline muted preload="" controlslist="nofullscreen" controls="" class="clip_video_url" id="clip_video_url" src="https://stories.nba.com/html-push/9975961/e4bdf5fa-885a-4428-a105-6ac815b5a13e.mp4"></video>
     <article class="clipInfo">
@@ -111,5 +112,22 @@
     </a>
   </footer>
 <noscript><img src="https://stories.nba.com/akam/13/pixel_5fecfead?a=dD05YmU0YjY0YWQ2ZWRhYjYxZmNhYjM3YjFlODI0YzNjNjczODg3NmM4JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+<script type="text/javascript">
+  window.onload = function(){
+  var playPromise = document.getElementById('clip_video_url').play() //document.querySelector('video').play();
 
+    // In browsers that don’t yet support this functionality,
+    // playPromise won’t be defined.
+    if (playPromise !== undefined) {
+        playPromise.then(function() {
+        // Automatic playback started!
+          document.getElementById('err_message').innerHTML = 'Automatic playback started!'
+        }).catch(function(error) {
+        // Automatic playback failed.
+        // Show a UI element to let the user manually start playback.
+        document.getElementById('err_message').innerHTML = 'need manually start playback.'
+        });
+    }
+  }
+</script>
 </body></html>
