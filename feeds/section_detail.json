@@ -1,0 +1,216 @@
+{
+    "id": "april-28-04-28-2023",
+    "name": "April 28 - MIA 3, CHC 2",
+    "bgUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/1920/center/90/fa6b424c-4c31-4fe6-a0cb-af6c954135bb-full16x9_MicrosoftTeamsimage5.png",
+    "style": "VOD_VIDEO",
+    "iconUrl": "",
+    "router": "",
+    "link": "",
+    "paging": {
+      "moreDataAvailable": false
+    },
+    "items": [
+      {
+        "id": "highlights-cubs-drop-series-opener-vs-marlins",
+        "title": "Highlights: Cubs drop series opener vs Marlins",
+        "desc": "See highlights from the Cubs' 3-2 loss to Miami",
+        "thumbnailUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/fa6b424c-4c31-4fe6-a0cb-af6c954135bb-full16x9_MicrosoftTeamsimage5.png",
+        "image": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/1920/center/90/fa6b424c-4c31-4fe6-a0cb-af6c954135bb-full16x9_MicrosoftTeamsimage5.png",
+        "posterUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/fa6b424c-4c31-4fe6-a0cb-af6c954135bb-full16x9_MicrosoftTeamsimage5.png",
+        "logoUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/548/center/90/fa6b424c-4c31-4fe6-a0cb-af6c954135bb-full16x9_MicrosoftTeamsimage5.png",
+        "duration": "03:09",
+        "vodCount": 0,
+        "psData": {
+          "favourite": false,
+          "watchedAt": 0,
+          "watchProgress": 0
+        },
+        "rating": "",
+        "router": "marquee://video/highlights-cubs-drop-series-opener-vs-marlins",
+        "channelId": "",
+        "dic": {
+          "titleImage": "",
+          "type": "episode",
+          "accessLevel": "GRANTED",
+          "shortCode": "",
+          "category": "OTTEpisode",
+          "externalAssetId": "770f4afc-8e88-4ae6-9122-bb2408d08539",
+          "url": "https://ott-gateway.sinclairstoryline.com/api/rest/v4/marqueesportslive/OTT/media/slug/highlights-cubs-drop-series-opener-vs-marlins"
+        }
+      },
+      {
+        "id": "velazquez-homers-in-back-to-back-games",
+        "title": "Velazquez homers in back-to-back games",
+        "desc": "Nelson Velazquez drives in his 3rd home run of the season with a hit to left field in the 3rd inning against the Marlins",
+        "thumbnailUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/c3b977e3-410f-4b12-8ef3-314595fe480a-full16x9_MicrosoftTeamsimage7.png",
+        "image": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/1920/center/90/c3b977e3-410f-4b12-8ef3-314595fe480a-full16x9_MicrosoftTeamsimage7.png",
+        "posterUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/c3b977e3-410f-4b12-8ef3-314595fe480a-full16x9_MicrosoftTeamsimage7.png",
+        "logoUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/548/center/90/c3b977e3-410f-4b12-8ef3-314595fe480a-full16x9_MicrosoftTeamsimage7.png",
+        "duration": "00:56",
+        "vodCount": 0,
+        "psData": {
+          "favourite": false,
+          "watchedAt": 0,
+          "watchProgress": 0
+        },
+        "rating": "",
+        "router": "marquee://video/velazquez-homers-in-back-to-back-games",
+        "channelId": "",
+        "dic": {
+          "titleImage": "",
+          "type": "episode",
+          "accessLevel": "GRANTED",
+          "shortCode": "",
+          "category": "OTTEpisode",
+          "externalAssetId": "06fa2c2f-fb74-4909-8e00-49a91265fbb7",
+          "url": "https://ott-gateway.sinclairstoryline.com/api/rest/v4/marqueesportslive/OTT/media/slug/velazquez-homers-in-back-to-back-games"
+        }
+      },
+      {
+        "id": "madrigal-on-experienced-hitters-i-think-it-makes-for-a-dangerous-lineup",
+        "title": "Madrigal on experienced hitters: 'I think it makes for a dangerous lineup'",
+        "desc": "Cubs infielder Nick Madrigal spoke with Taylor McGregor discussing his offensive approach, veteran presence in the lineup and more",
+        "thumbnailUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/8bc3f34c-ef65-4ab3-827c-bab889851066-full16x9_MadrigalINTV.png",
+        "image": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/1920/center/90/8bc3f34c-ef65-4ab3-827c-bab889851066-full16x9_MadrigalINTV.png",
+        "posterUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/8bc3f34c-ef65-4ab3-827c-bab889851066-full16x9_MadrigalINTV.png",
+        "logoUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/548/center/90/8bc3f34c-ef65-4ab3-827c-bab889851066-full16x9_MadrigalINTV.png",
+        "duration": "04:17",
+        "vodCount": 0,
+        "psData": {
+          "favourite": false,
+          "watchedAt": 0,
+          "watchProgress": 0
+        },
+        "rating": "",
+        "router": "marquee://video/madrigal-on-experienced-hitters-i-think-it-makes-for-a-dangerous-lineup",
+        "channelId": "",
+        "dic": {
+          "titleImage": "",
+          "type": "episode",
+          "accessLevel": "GRANTED",
+          "shortCode": "",
+          "category": "OTTEpisode",
+          "externalAssetId": "6ced8e75-e1d3-42d2-8575-09d1f46929c6",
+          "url": "https://ott-gateway.sinclairstoryline.com/api/rest/v4/marqueesportslive/OTT/media/slug/madrigal-on-experienced-hitters-i-think-it-makes-for-a-dangerous-lineup"
+        }
+      },
+      {
+        "id": "swansons-incredible-defense-inspires-confidence-in-stroman",
+        "title": "Swanson's incredible defense inspires confidence in Stroman",
+        "desc": "Dansby Swanson made an incredible defensive play in the bottom of the 6th inning which gives plenty of confidence for Marcus Stroman",
+        "thumbnailUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/4853fe60-0ac2-4cac-b410-bfc16113f052-full16x9_SwansonDefense.png",
+        "image": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/1920/center/90/4853fe60-0ac2-4cac-b410-bfc16113f052-full16x9_SwansonDefense.png",
+        "posterUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/4853fe60-0ac2-4cac-b410-bfc16113f052-full16x9_SwansonDefense.png",
+        "logoUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/548/center/90/4853fe60-0ac2-4cac-b410-bfc16113f052-full16x9_SwansonDefense.png",
+        "duration": "00:59",
+        "vodCount": 0,
+        "psData": {
+          "favourite": false,
+          "watchedAt": 0,
+          "watchProgress": 0
+        },
+        "rating": "",
+        "router": "marquee://video/swansons-incredible-defense-inspires-confidence-in-stroman",
+        "channelId": "",
+        "dic": {
+          "titleImage": "",
+          "type": "episode",
+          "accessLevel": "GRANTED",
+          "shortCode": "",
+          "category": "OTTEpisode",
+          "externalAssetId": "efcaeb59-50c3-486b-80b0-d5f8acb1c845",
+          "url": "https://ott-gateway.sinclairstoryline.com/api/rest/v4/marqueesportslive/OTT/media/slug/swansons-incredible-defense-inspires-confidence-in-stroman"
+        }
+      },
+      {
+        "id": "fan-of-the-week-alex-pancoe",
+        "title": "Fan of the Week: Alex Pancoe",
+        "desc": "Meet our Miller Lite Fan of The Week and find out how the Cubs are special to this week's winner, Alex Pancoe",
+        "thumbnailUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/3bd7bb63-9200-435a-aeb3-6a0af64e9e96-full16x9_fotw428.jpg",
+        "image": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/1920/center/90/3bd7bb63-9200-435a-aeb3-6a0af64e9e96-full16x9_fotw428.jpg",
+        "posterUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/3bd7bb63-9200-435a-aeb3-6a0af64e9e96-full16x9_fotw428.jpg",
+        "logoUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/548/center/90/3bd7bb63-9200-435a-aeb3-6a0af64e9e96-full16x9_fotw428.jpg",
+        "duration": "01:02",
+        "vodCount": 0,
+        "psData": {
+          "favourite": false,
+          "watchedAt": 0,
+          "watchProgress": 0
+        },
+        "rating": "",
+        "router": "marquee://video/fan-of-the-week-alex-pancoe",
+        "channelId": "",
+        "dic": {
+          "titleImage": "",
+          "type": "episode",
+          "accessLevel": "GRANTED",
+          "shortCode": "",
+          "category": "OTTEpisode",
+          "externalAssetId": "07dbd6fd-efe9-43b3-8192-e3bb0ae35015",
+          "url": "https://ott-gateway.sinclairstoryline.com/api/rest/v4/marqueesportslive/OTT/media/slug/fan-of-the-week-alex-pancoe"
+        }
+      },
+      {
+        "id": "marlins-scouting-report-with-jordan-mcpherson-04-29-2023",
+        "title": "Marlins scouting report with Jordan McPherson",
+        "desc": "Miami Marlins beat writer Jordan McPherson joins Cole Wright on Cubs Live! to provide a scouting report for the Marlins",
+        "thumbnailUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/7b169afb-cc88-481d-91df-4561f725c8aa-full16x9_MARLINSREPORTER.png",
+        "image": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/1920/center/90/7b169afb-cc88-481d-91df-4561f725c8aa-full16x9_MARLINSREPORTER.png",
+        "posterUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/7b169afb-cc88-481d-91df-4561f725c8aa-full16x9_MARLINSREPORTER.png",
+        "logoUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/548/center/90/7b169afb-cc88-481d-91df-4561f725c8aa-full16x9_MARLINSREPORTER.png",
+        "duration": "03:31",
+        "vodCount": 0,
+        "psData": {
+          "favourite": false,
+          "watchedAt": 0,
+          "watchProgress": 0
+        },
+        "rating": "",
+        "router": "marquee://video/marlins-scouting-report-with-jordan-mcpherson-04-29-2023",
+        "channelId": "",
+        "dic": {
+          "titleImage": "",
+          "type": "episode",
+          "accessLevel": "GRANTED",
+          "shortCode": "",
+          "category": "OTTEpisode",
+          "externalAssetId": "33046e70-edfc-4cdf-b09a-3ec408a35435",
+          "url": "https://ott-gateway.sinclairstoryline.com/api/rest/v4/marqueesportslive/OTT/media/slug/marlins-scouting-report-with-jordan-mcpherson-04-29-2023"
+        }
+      },
+      {
+        "id": "ross-on-keeping-velazquez-dfaing-torrens",
+        "title": "Ross on keeping Velazquez, DFA'ing Torrens",
+        "desc": "David Ross explains the decision to keep Nelson Velazquez and DFA'ing Luis Torrens before the first game of the series against the Marlins",
+        "thumbnailUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/cb00e1f3-f10b-4a32-8c02-bdec9dee4a1f-full16x9_MQ500398.JPG",
+        "image": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/1920/center/90/cb00e1f3-f10b-4a32-8c02-bdec9dee4a1f-full16x9_MQ500398.JPG",
+        "posterUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/448/center/90/cb00e1f3-f10b-4a32-8c02-bdec9dee4a1f-full16x9_MQ500398.JPG",
+        "logoUrl": "http://mobile.neulion.net.cn/ftp/marquee/resources/media2/16x9/full/548/center/90/cb00e1f3-f10b-4a32-8c02-bdec9dee4a1f-full16x9_MQ500398.JPG",
+        "duration": "01:24",
+        "vodCount": 0,
+        "psData": {
+          "favourite": false,
+          "watchedAt": 0,
+          "watchProgress": 0
+        },
+        "rating": "",
+        "router": "marquee://video/ross-on-keeping-velazquez-dfaing-torrens",
+        "channelId": "",
+        "dic": {
+          "titleImage": "",
+          "type": "episode",
+          "accessLevel": "GRANTED",
+          "shortCode": "",
+          "category": "OTTEpisode",
+          "externalAssetId": "11ada54a-0c48-449b-97b8-708fe3c94e09",
+          "url": "https://ott-gateway.sinclairstoryline.com/api/rest/v4/marqueesportslive/OTT/media/slug/ross-on-keeping-velazquez-dfaing-torrens"
+        }
+      }
+    ],
+    "dic": {
+      "title": "Cubs vs. Marlins",
+      "type": "SEASON_TEASER_LIST",
+      "displayTitle": "April 28 - MIA 3, CHC 2",
+      "url": "https://ott-gateway.sinclairstoryline.com/api/rest/v4/marqueesportslive/OTT/show/document/april-28-04-28-2023"
+    }
+  }
