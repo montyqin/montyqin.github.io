@@ -1,0 +1,143 @@
+{
+  "base": {
+    "es.app.urls":{
+      "menu":"${cdnServer}/assets/menu/menu_tv_v1.json",
+      "localization":"${cdnServer}/assets/localization/localization_en.string",
+      "stsToken":"${apiServer}/sts/v1/oauth/jwtsignin",
+      "tveToken":"${apiServer}sts/v1/oauth/tvesignin"
+    },
+    "es.app.settings": {
+      "debugLog": true,
+      "useAirPlay": true,
+      "timezone": "America/New_York",
+      "timezone_format": "default",
+      "server_timezone": "America/New_York",
+      "display_timezone": "default",
+      "timezone_suffix": "",
+      "appServer": "https://rest-dev.evergent.com/marquee",
+      "personalServer": "https://rest-dev.evergent.com/marquee",
+      "apiServer": "https://ottapp-appgw-client-a.proda.msn.tv3cloud.com",
+      "playerServer": "https://ottapp-appgw-amp-a.proda.msn.tv3cloud.com/",
+      "cdnServer": "https://neulion-a.akamaihd.net/nlmobile/marquee"
+    },
+		"es.adobepass.mvpd": {
+			"isProduction": true,
+			"url": "https://sp.auth.adobe.com/adobe-services",
+			"requestor": "MarqueeSports",
+			"list": "https://api.auth.adobe.com/api/v1/config/MarqueeSports",
+			"allResourceId": ["MarqueeSports"],
+			"favoriteProviderIDs": ["Comcast_SSO", "DTV", "Mediacom", "RCN", "Spectrum", "Fubo"],
+			"extraLogos": {
+				"DTV": "https://hummingbird-ott.s3.amazonaws.com/images/logos/DTV.png",
+				"Spectrum": "https://hummingbird-ott.s3.amazonaws.com/images/logos/Spectrum.png"
+			},
+      "specialmvpds": {
+        "Comcast_SSO": {
+          "rssId": "<rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><title>${resourceID}</title><item><title>${assetID}</title><guid>${UCI_GUID}</guid><media:rating scheme=\"urn:v-chip\">${tvRating}</media:rating></item></channel></rss>",
+          "logoUrl": "https://neulionsmbnyc-a.akamaihd.net/u/univisionnow2/thumbs/mvpds/Comcast_SSO_pc_3.png",
+          "clickUrl": "https://itunes.apple.com/us/app/xfinity-tv-go/id552293383?mt=8&uo=4",
+          "asset_id": "Internal use",
+          "uci_guid": "1000000",
+          "defaultTVRating": "",
+          "authorizationErrorType": "1"
+        },
+        "Spectrum": {
+          "rssId": "<rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><title>${resourceID}</title><item><title>${assetID}</title><guid>${UCI_GUID}</guid></item></channel></rss>",
+          "asset_id": "Internal use",
+          "uci_guid": "1000000",
+          "authorizationErrorType": "2"
+        }
+      }
+		},
+    "es.app.greeting": {
+      "enabled": false,
+      "title": "Marquee Sports App",
+      "message": "This app has a required update.  Please go to the App Store to download the latest version.",
+      "forceUpgrade": false,
+      "upgradeUrl": "https://itunes.apple.com/app/id578584077"
+    },
+    "es.app.info": {
+      "url": "${appServer}",
+      "advInfo": true,
+      "email": {
+        "enable": true,
+        "to": "support@marquee.com",
+        "subject": "Marquee Sports App Support Request"
+      }
+    },
+    "es.app.share": {
+      "subject":"A cool video [${programName}] to share with you!",
+      "content":"I am watching ${programName} using ${appName} app.\r\n ${programDesc}. \r\nYou can download it or watch the videos on its website: \r\n ${locServer}/#!player?id=${programId}",
+      "link":"${locServer}",
+      "game": "I'm watching on Marquee Sports. \r\n ${appServer}/game/${seoName}",
+      "program": "I'm watching on Marquee Sports. \r\n ${appServer}/video/${seoName}",
+      "channel": "I'm watching on Marquee Sports. \r\n ${appServer}/channel/${seoName}",
+      "news": "I'm watching on Marquee Sports. \r\n ${link}"
+    },
+    "es.app.purchase":{
+      "keepRawJSON": true,
+      "isStore": true,
+      "skuFormat": "lowercase",
+      "descFromStore": true,
+      "priceFromStore": true,
+      "mobileSupportSKUs": ".*mrqu_premium_monthly.*|.*mrqu_premium_annual.*",
+      "subSKUs": ".*annual.*|.*monthly.*",
+      "ppvSKUs": ".*SINGLEGAME.*",
+      "freeSKUs": ".*FREESKU.*",
+      "holderSKUs": {
+        "mrqu_premium_annual": "amazon",
+        "mrqu_premium_monthly": "monthly",
+        "BWEEKLY": "",
+        "BAPMONTHLY": "",
+        "BNEWWEEKLY": ""
+      },
+      "consumableSKUs": [
+        {
+          "rule": ".*BLPPDAY.*",
+          "expireDate": "259200"
+        }
+      ],
+      "store": {
+        "validSKUs": ".*\\.2023\\..*",
+        "skuRule": "com.marqueesports.prod.amazon.${sku}",
+        "skuRuleSub": "com.marqueesports.prod.amazon.${skuHolder}",
+        "skuRulePPV": "com.marqueesports.prod.amazon.${sku}",
+        "base64EncodedPublicKey": "xxxx, only for android"
+      },
+      "dev": {
+        "validSKUs": ".*\\.2023\\..*",
+        "skuRule": "com.marqueesports.staging.amazon.${sku}",
+        "skuRuleSub": "com.marqueesports.staging.amazon.${skuHolder}",
+        "skuRulePPV": "com.marqueesports.staging.amazon.${sku}",
+        "shareSecret": "xxxx - only for ios",
+        "base64EncodedPublicKey": "xxxx, only for android"
+      }
+    },
+    "es.app.chromecast": {
+      "enabled": true,
+      "appId": "33C316EF",
+      "appId_Prod": "A9BE89D6"
+    },
+    "es.app.interval": {
+      "default": 300,
+      "accessToken": 5400,
+      "games": 60,
+      "gameDetail": 300,
+      "programDetail": 120,
+      "scoreboard": 30,
+      "liveEvents": 120,
+      "schedule": 300,
+      "config": 28800,
+      "timestamp": 10,
+      "pcmOffset": 50
+    }
+  },
+  "locale": {
+    "country": {
+    },
+    "language": {
+    },
+    "platforms": {
+    }
+  }
+}
